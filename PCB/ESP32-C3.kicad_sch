@@ -1926,7 +1926,6 @@
     )
   )
 
-
   (junction (at 217.17 120.65) (diameter 0) (color 0 0 0 0)
     (uuid 00f0aadc-f7d9-411d-b93f-3e7ce5cae5bd)
   )
@@ -2871,10 +2870,10 @@
     (property "LCSC" "C2888545" (id 4) (at 53.34 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 64da3575-dea4-4b90-b79b-208c9a333161))
-    (pin "2" (uuid 73412fd2-51ef-4c22-9834-92fbff0a8ecf))
-    (pin "1" (uuid 64da3575-dea4-4b90-b79b-208c9a333161))
-    (pin "2" (uuid 73412fd2-51ef-4c22-9834-92fbff0a8ecf))
+    (pin "1" (uuid 64da3575-dea4-4b90-b79b-208c9a333162))
+    (pin "2" (uuid 73412fd2-51ef-4c22-9834-92fbff0a8ed0))
+    (pin "1" (uuid 64da3575-dea4-4b90-b79b-208c9a333162))
+    (pin "2" (uuid 73412fd2-51ef-4c22-9834-92fbff0a8ed0))
   )
 
   (symbol (lib_id "resistor_smd_standard:5k1_0402") (at 118.11 168.91 180) (unit 1)
