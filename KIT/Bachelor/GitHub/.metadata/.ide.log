@@ -1,0 +1,817 @@
+2023-07-27 21:37:43,590 [INFO] Activator:176 - 
+
+
+2023-07-27 21:37:43,605 [INFO] Activator:177 - !SESSION log4j initialized
+2023-07-27 21:37:59,068 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2023-07-27 21:38:04,256 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.0.202307051724
+2023-07-27 21:38:04,309 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.0.202307051724\\db\/mcu/
+2023-07-27 21:38:04,310 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.0.202307051724\\db\/plugins/boardmanager/
+2023-07-27 21:38:04,312 [WARN] ApiDb:259 - Overriding images path with different value:  => C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.0.202307051724\\db\/plugins/mcufinder/images/
+2023-07-27 21:38:04,345 [INFO] ApiDb:250 - Set database path to: C:\Users\Ansel\.stmcufinder\plugins\mcufinder//mcu/
+2023-07-27 21:38:04,348 [INFO] DbMcusAds:125 - Set database path to: C:\Users\Ansel\.stmcufinder\plugins\mcufinder//mcu/
+2023-07-27 21:38:04,353 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\Ansel\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-07-27 21:38:04,728 [INFO] RulesReader:64 - Compatibility file has been processed (293 Rules)
+2023-07-27 21:38:04,935 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.0.202307051724\\db\/mcu/
+2023-07-27 21:38:04,935 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.0.202307051724\\db\/plugins/boardmanager/
+2023-07-27 21:38:04,936 [INFO] ApiDb:261 - Set plugin images path to: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.0.202307051724\\db\/plugins/mcufinder/images/
+2023-07-27 21:38:04,936 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\Ansel\.stmcufinder\plugins\mcufinder/ => C:\Users\Ansel\.stmcufinder\plugins\mcufinder
+2023-07-27 21:38:04,937 [INFO] ApiDb:250 - Set database path to: C:\Users\Ansel\.stmcufinder\plugins\mcufinder//mcu/
+2023-07-27 21:38:04,937 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\Ansel\.stmcufinder\plugins\mcufinder/ => C:\Users\Ansel\.stmcufinder\plugins\mcufinder
+2023-07-27 21:38:04,937 [INFO] DbMcusAds:125 - Set database path to: C:\Users\Ansel\.stmcufinder\plugins\mcufinder//mcu/
+2023-07-27 21:38:04,937 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\Ansel\.stmcufinder\plugins\mcufinder/ => C:\Users\Ansel\.stmcufinder\plugins\mcufinder
+2023-07-27 21:38:04,937 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\Ansel\.stmcufinder\plugins\mcufinder/ => C:\Users\Ansel\.stmcufinder\plugins\mcufinder
+2023-07-27 21:38:04,938 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\Ansel\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-07-27 21:38:05,162 [INFO] MainPanel:262 - HeapMemory: 268435456
+2023-07-27 21:38:05,417 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.0.202307051724\\db\/mcu/
+2023-07-27 21:38:05,417 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.0.202307051724\\db\/plugins/boardmanager/
+2023-07-27 21:38:05,418 [INFO] ApiDb:261 - Set plugin images path to: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.0.202307051724\\db\/plugins/mcufinder/images/
+2023-07-27 21:38:05,419 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\Ansel\.stmcufinder\plugins\mcufinder/ => C:\Users\Ansel\.stmcufinder\plugins\mcufinder
+2023-07-27 21:38:05,419 [INFO] ApiDb:250 - Set database path to: C:\Users\Ansel\.stmcufinder\plugins\mcufinder//mcu/
+2023-07-27 21:38:05,419 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\Ansel\.stmcufinder\plugins\mcufinder/ => C:\Users\Ansel\.stmcufinder\plugins\mcufinder
+2023-07-27 21:38:05,420 [INFO] DbMcusAds:125 - Set database path to: C:\Users\Ansel\.stmcufinder\plugins\mcufinder//mcu/
+2023-07-27 21:38:05,420 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\Ansel\.stmcufinder\plugins\mcufinder/ => C:\Users\Ansel\.stmcufinder\plugins\mcufinder
+2023-07-27 21:38:05,420 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\Ansel\.stmcufinder\plugins\mcufinder/ => C:\Users\Ansel\.stmcufinder\plugins\mcufinder
+2023-07-27 21:38:05,420 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\Ansel\.stmcufinder\plugins\mcufinder//mcu/cs/
+2023-07-27 21:38:05,466 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.0.202307051724
+2023-07-27 21:38:05,470 [INFO] PluginManage:196 - Search for loadable plugins [exclusion list=, ]
+2023-07-27 21:38:05,476 [INFO] PluginManage:310 - Check plugin analytics
+2023-07-27 21:38:06,034 [INFO] AnalyticsPlugin:253 - Accepted Software Licenses: 
+2023-07-27 21:38:06,034 [INFO] AnalyticsPlugin:255 - Accepted CMSIS Pack Licenses: 
+2023-07-27 21:38:06,034 [INFO] AnalyticsPlugin:257 - Accepted Firmware Licenses: 
+2023-07-27 21:38:06,041 [INFO] PluginManage:359 - Loaded plugin analytics (category:tool,tabindex:-1)
+2023-07-27 21:38:06,042 [INFO] PluginManage:310 - Check plugin cadmodel
+2023-07-27 21:38:10,755 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-07-27 21:38:10,757 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-07-27 21:38:10,763 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-07-27 21:38:11,390 [INFO] CADModel:105 - Init CAD model plugin
+2023-07-27 21:38:11,390 [INFO] PluginManage:359 - Loaded plugin cadmodel (category:power,tabindex:5)
+2023-07-27 21:38:11,391 [INFO] PluginManage:310 - Check plugin clock
+2023-07-27 21:38:12,873 [INFO] PluginManage:359 - Loaded plugin clock (category:base,tabindex:2)
+2023-07-27 21:38:12,873 [INFO] PluginManage:310 - Check plugin ddr
+2023-07-27 21:38:12,876 [INFO] PluginManage:359 - Loaded plugin ddr (category:tool,tabindex:6)
+2023-07-27 21:38:12,876 [INFO] PluginManage:310 - Check plugin filemanager
+2023-07-27 21:38:13,075 [INFO] PluginManage:359 - Loaded plugin filemanager (category:base,tabindex:10)
+2023-07-27 21:38:13,075 [INFO] PluginManage:310 - Check plugin ipmanager
+2023-07-27 21:38:13,088 [INFO] PluginManage:359 - Loaded plugin ipmanager (category:base,tabindex:5)
+2023-07-27 21:38:13,088 [INFO] PluginManage:310 - Check plugin lpbam
+2023-07-27 21:38:13,375 [INFO] PluginManage:359 - Loaded plugin lpbam (category:base,tabindex:0)
+2023-07-27 21:38:13,375 [INFO] PluginManage:310 - Check plugin memorymap
+2023-07-27 21:38:13,705 [INFO] PluginManage:359 - Loaded plugin memorymap (category:base,tabindex:4)
+2023-07-27 21:38:13,705 [INFO] PluginManage:310 - Check plugin pinoutandconfiguration
+2023-07-27 21:38:14,506 [INFO] PluginManage:359 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2023-07-27 21:38:14,506 [INFO] PluginManage:310 - Check plugin pinoutconfig
+2023-07-27 21:38:15,216 [WARN] SupportedApi:132 - Cannot load RTOS API schema: s4s-elt-must-match.1: The content of 'definitions' must match (annotation?, (simpleType | complexType)?, (unique | key | keyref)*)). A problem was found starting at: attribute.
+2023-07-27 21:38:15,481 [INFO] PluginManage:359 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2023-07-27 21:38:15,481 [INFO] PluginManage:310 - Check plugin power
+2023-07-27 21:38:15,532 [INFO] PluginManage:359 - Loaded plugin power (category:power,tabindex:4)
+2023-07-27 21:38:15,532 [INFO] PluginManage:310 - Check plugin projectmanager
+2023-07-27 21:38:15,559 [INFO] PluginManage:359 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2023-07-27 21:38:15,559 [INFO] PluginManage:310 - Check plugin thirdparty
+2023-07-27 21:38:23,199 [WARN] IntegrityCheckThread:84 - waiting for thirdparty lock release [integrity check]
+2023-07-27 21:38:23,199 [INFO] IntegrityCheckThread:86 - entering critical section [integrity check]
+2023-07-27 21:38:23,200 [INFO] PluginManage:359 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2023-07-27 21:38:23,200 [INFO] PluginManage:310 - Check plugin tools
+2023-07-27 21:38:23,201 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2023-07-27 21:38:23,231 [INFO] PluginManage:359 - Loaded plugin tools (category:base,tabindex:7)
+2023-07-27 21:38:23,231 [INFO] PluginManage:310 - Check plugin tutovideos
+2023-07-27 21:38:23,639 [INFO] PluginManage:359 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2023-07-27 21:38:23,639 [INFO] PluginManage:310 - Check plugin updater
+2023-07-27 21:38:23,653 [INFO] PluginManage:359 - Loaded plugin updater (category:base,tabindex:12)
+2023-07-27 21:38:23,653 [INFO] PluginManage:310 - Check plugin userauth
+2023-07-27 21:38:23,659 [INFO] UserAuth:113 - Init User Auth plugin
+2023-07-27 21:38:23,659 [INFO] PluginManage:359 - Loaded plugin userauth (category:base,tabindex:14)
+2023-07-27 21:38:23,660 [INFO] PluginManage:283 - PluginManage : Loaded plugins [17]
+2023-07-27 21:38:24,027 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-07-27 21:38:24,222 [INFO] CADModel:165 - CPN selected for project level
+2023-07-27 21:38:24,222 [INFO] CADModel:114 - Register for checkConnection events
+2023-07-27 21:38:24,318 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:24,319 [INFO] PluginManager:220 - loadIPPluginJar : add adc
+2023-07-27 21:38:24,342 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:24,343 [INFO] PluginManager:220 - loadIPPluginJar : add aes
+2023-07-27 21:38:24,371 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:24,371 [INFO] PluginManager:220 - loadIPPluginJar : add can
+2023-07-27 21:38:24,391 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:24,392 [INFO] PluginManager:220 - loadIPPluginJar : add comp
+2023-07-27 21:38:24,425 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:24,425 [INFO] PluginManager:220 - loadIPPluginJar : add cryp
+2023-07-27 21:38:24,461 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:24,461 [INFO] PluginManager:220 - loadIPPluginJar : add dfsdm
+2023-07-27 21:38:24,553 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:24,554 [INFO] PluginManager:220 - loadIPPluginJar : add dma
+2023-07-27 21:38:24,601 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:24,602 [INFO] PluginManager:220 - loadIPPluginJar : add dma3
+2023-07-27 21:38:24,632 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:24,632 [INFO] PluginManager:220 - loadIPPluginJar : add fatfs
+2023-07-27 21:38:24,681 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:24,681 [INFO] PluginManager:220 - loadIPPluginJar : add fmc
+2023-07-27 21:38:25,202 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:25,203 [INFO] PluginManager:220 - loadIPPluginJar : add freertos
+2023-07-27 21:38:25,219 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:25,219 [INFO] PluginManager:220 - loadIPPluginJar : add genericplugin
+2023-07-27 21:38:25,282 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:25,286 [INFO] PluginManager:220 - loadIPPluginJar : add gfxmmu
+2023-07-27 21:38:25,384 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:25,384 [INFO] PluginManager:220 - loadIPPluginJar : add gic
+2023-07-27 21:38:25,581 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:25,581 [INFO] PluginManager:220 - loadIPPluginJar : add gpio
+2023-07-27 21:38:25,643 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:25,643 [INFO] PluginManager:220 - loadIPPluginJar : add gtzc
+2023-07-27 21:38:25,666 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:25,666 [INFO] PluginManager:220 - loadIPPluginJar : add hash
+2023-07-27 21:38:25,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:25,700 [INFO] PluginManager:220 - loadIPPluginJar : add i2c
+2023-07-27 21:38:25,731 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:25,732 [INFO] PluginManager:220 - loadIPPluginJar : add i2s
+2023-07-27 21:38:25,769 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:25,770 [INFO] PluginManager:220 - loadIPPluginJar : add i3c
+2023-07-27 21:38:25,834 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:25,834 [INFO] PluginManager:220 - loadIPPluginJar : add ipddr
+2023-07-27 21:38:25,951 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:25,952 [INFO] PluginManager:220 - loadIPPluginJar : add linkedlist
+2023-07-27 21:38:26,009 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:26,010 [INFO] PluginManager:220 - loadIPPluginJar : add lorawan
+2023-07-27 21:38:26,069 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:26,069 [INFO] PluginManager:220 - loadIPPluginJar : add ltdc
+2023-07-27 21:38:26,202 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [2/15]
+2023-07-27 21:38:26,331 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:26,331 [INFO] PluginManager:220 - loadIPPluginJar : add mdma
+2023-07-27 21:38:26,632 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:26,633 [INFO] PluginManager:220 - loadIPPluginJar : add nvic
+2023-07-27 21:38:26,680 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:26,680 [INFO] PluginManager:220 - loadIPPluginJar : add opamp
+2023-07-27 21:38:26,754 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:26,755 [INFO] PluginManager:220 - loadIPPluginJar : add openamp
+2023-07-27 21:38:26,811 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:26,811 [INFO] PluginManager:220 - loadIPPluginJar : add pdm2pcm
+2023-07-27 21:38:26,977 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:26,980 [INFO] PluginManager:220 - loadIPPluginJar : add plateformsettings
+2023-07-27 21:38:26,997 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:26,997 [INFO] PluginManager:220 - loadIPPluginJar : add quadspi
+2023-07-27 21:38:27,661 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:27,661 [INFO] PluginManager:220 - loadIPPluginJar : add resmgrutility
+2023-07-27 21:38:27,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:27,709 [INFO] PluginManager:220 - loadIPPluginJar : add sai
+2023-07-27 21:38:27,735 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:27,735 [INFO] PluginManager:220 - loadIPPluginJar : add spi
+2023-07-27 21:38:27,774 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:27,774 [INFO] PluginManager:220 - loadIPPluginJar : add stm32_wpan
+2023-07-27 21:38:27,797 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:27,797 [INFO] PluginManager:220 - loadIPPluginJar : add tim
+2023-07-27 21:38:27,837 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:27,837 [INFO] PluginManager:220 - loadIPPluginJar : add touchsensing
+2023-07-27 21:38:27,857 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:27,858 [INFO] PluginManager:220 - loadIPPluginJar : add tracer_emb
+2023-07-27 21:38:27,875 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:27,875 [INFO] PluginManager:220 - loadIPPluginJar : add ts
+2023-07-27 21:38:27,897 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:27,897 [INFO] PluginManager:220 - loadIPPluginJar : add tsc
+2023-07-27 21:38:27,918 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:27,919 [INFO] PluginManager:220 - loadIPPluginJar : add ucpd
+2023-07-27 21:38:27,957 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:27,958 [INFO] PluginManager:220 - loadIPPluginJar : add usart
+2023-07-27 21:38:27,986 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-07-27 21:38:27,986 [INFO] PluginManager:220 - loadIPPluginJar : add usbx
+2023-07-27 21:38:28,140 [INFO] CADModel:165 - CPN selected for project level
+2023-07-27 21:38:28,140 [INFO] CADModel:114 - Register for checkConnection events
+2023-07-27 21:38:28,140 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-07-27 21:38:28,140 [ERROR] CADModel:125 - Updater not yet initialized, retry later 
+2023-07-27 21:38:28,384 [INFO] CADModel:165 - CPN selected for project level
+2023-07-27 21:38:28,384 [INFO] CADModel:114 - Register for checkConnection events
+2023-07-27 21:38:28,384 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-07-27 21:38:28,384 [ERROR] CADModel:125 - Updater not yet initialized, retry later 
+2023-07-27 21:38:28,390 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-07-27 21:38:28,591 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-07-27 21:38:28,604 [INFO] DbMcusAds:53 - JSON generation date=Tue Mar 07 09:50:55 CET 2023 (1678179055114)
+2023-07-27 21:38:28,604 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-07-27 21:38:28,699 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2023-07-27 21:38:28,921 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-07-27 21:38:28,923 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-07-27 21:38:28,924 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-07-27 21:38:28,924 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2023-07-27 21:38:28,925 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-07-27 21:38:29,025 [ERROR] Updater:1120 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2023-07-27 21:38:29,037 [INFO] Updater:1056 - Updater Version found : 6.9.0
+2023-07-27 21:38:29,064 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.0.202307051724
+2023-07-27 21:38:29,204 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [3/15]
+2023-07-27 21:38:29,422 [INFO] MainUpdater:2868 - connection check result : 10
+2023-07-27 21:38:29,424 [INFO] MainUpdater:285 - Updater Check For Update Now.
+2023-07-27 21:38:29,424 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.90
+2023-07-27 21:38:29,443 [INFO] McuFinderGlobals:63 - Set McuFinder mode to 2 (CubeIDE integrated)
+2023-07-27 21:38:29,443 [INFO] UserAuth:179 - activating auth plugin
+2023-07-27 21:38:29,447 [INFO] UserAuth:393 - Internet connection configuration mode: 1
+2023-07-27 21:38:29,488 [INFO] JxBrowserEngine:151 - Initiate JxBrowser Engine with user profile folder
+2023-07-27 21:38:29,671 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2023-07-27 21:38:31,615 [INFO] WebApp:157 - Instantiating new browser for Auth
+2023-07-27 21:38:32,571 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SMBUS.2.1.0
+2023-07-27 21:38:32,592 [INFO] WebApp:753 - Register for checkConnection events
+2023-07-27 21:38:32,593 [INFO] WebApp:390 - Apply proxy settings
+2023-07-27 21:38:32,593 [INFO] WebApp:475 - Chromium requires no authentication
+2023-07-27 21:38:32,611 [INFO] WebApp:418 - Direct internet connection detected
+2023-07-27 21:38:32,658 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.1.0
+2023-07-27 21:38:32,693 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-SNS-MOTENV1.4.3.2
+2023-07-27 21:38:32,745 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-SNS-FLIGHT1.5.0.1
+2023-07-27 21:38:32,767 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.4
+2023-07-27 21:38:32,802 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-SNS-FLIGHT1.5.0.2
+2023-07-27 21:38:32,833 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.3.0.0
+2023-07-27 21:38:32,862 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.22.0
+2023-07-27 21:38:32,891 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2023-07-27 21:38:32,892 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2023-07-27 21:38:32,896 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2023-07-27 21:38:32,899 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2023-07-27 21:38:32,903 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2023-07-27 21:38:32,912 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.2.0.0
+2023-07-27 21:38:32,935 [WARN] PackLoader:240 - Cannot read IP mode file for WES.I-CUBE-Cesium.1.3.0
+2023-07-27 21:38:32,949 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.3.0
+2023-07-27 21:38:32,968 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.2.2.0
+2023-07-27 21:38:33,003 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.2.0
+2023-07-27 21:38:33,035 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.0
+2023-07-27 21:38:33,045 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.3
+2023-07-27 21:38:33,157 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.4.0
+2023-07-27 21:38:33,213 [INFO] WebApp:188 - Starting web application
+2023-07-27 21:38:33,213 [INFO] WebApp:520 - Web application path used C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.0.202307051724\db\plugins\mcufinder\reactClient1\index.html
+2023-07-27 21:38:33,599 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.3.0
+2023-07-27 21:38:33,640 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2023-07-27 21:38:33,781 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.1.0
+2023-07-27 21:38:33,863 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.3.0.0
+2023-07-27 21:38:33,896 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.1.3.0
+2023-07-27 21:38:33,943 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-ATR-SIGFOX1.3.2.0
+2023-07-27 21:38:34,087 [WARN] PackLoader:240 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.3.1
+2023-07-27 21:38:34,297 [WARN] PackLoader:240 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.3.0
+2023-07-27 21:38:34,402 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.6.0.0
+2023-07-27 21:38:34,442 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.1.0
+2023-07-27 21:38:34,527 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.6.0
+2023-07-27 21:38:34,849 [WARN] PackLoader:240 - Cannot read IP mode file for emotas.I-CUBE-CANOPEN.1.1.3
+2023-07-27 21:38:34,865 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.2.0.0
+2023-07-27 21:38:34,880 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.5
+2023-07-27 21:38:34,912 [WARN] ConditionMgr:438 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-07-27 21:38:34,913 [WARN] ConditionMgr:438 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-07-27 21:38:34,919 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.1.0
+2023-07-27 21:38:34,920 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-07-27 21:38:34,920 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-07-27 21:38:34,921 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-07-27 21:38:34,922 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-07-27 21:38:34,922 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-07-27 21:38:34,934 [WARN] PackLoader:240 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.5.4
+2023-07-27 21:38:34,945 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.1
+2023-07-27 21:38:34,956 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.0
+2023-07-27 21:38:34,969 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.4.1.0
+2023-07-27 21:38:34,999 [WARN] ConditionMgr:438 - getConditionDescription Invalid condition id : LAN8742 Phy interface Condition cause : null
+2023-07-27 21:38:35,000 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.2.0.0
+2023-07-27 21:38:35,002 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : LAN8742 Phy interface Condition cause : null
+2023-07-27 21:38:35,003 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : LAN8742 Phy interface Condition cause : null
+2023-07-27 21:38:35,004 [WARN] ConditionMgr:1039 - genDependencies : Invalid condition id : LAN8742 Phy interface Condition cause : null
+2023-07-27 21:38:35,019 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0
+2023-07-27 21:38:35,058 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.0.0
+2023-07-27 21:38:35,073 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.1.1.0
+2023-07-27 21:38:35,089 [WARN] PackLoader:240 - Cannot read IP mode file for RoweBots.I-CUBE-UNISONRTOS.5.5.0-4
+2023-07-27 21:38:35,097 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.8.0.0
+2023-07-27 21:38:35,108 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-FREERTOS.1.0.1
+2023-07-27 21:38:35,137 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.1.0
+2023-07-27 21:38:35,149 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.8.0.1
+2023-07-27 21:38:35,164 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.5.0.0
+2023-07-27 21:38:35,186 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.3.1
+2023-07-27 21:38:35,234 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.2.0.0
+2023-07-27 21:38:35,257 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.3.0
+2023-07-27 21:38:35,275 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.1.1.1
+2023-07-27 21:38:35,300 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.1.0.0
+2023-07-27 21:38:35,334 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.1.0.0
+2023-07-27 21:38:35,356 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.1.0.0
+2023-07-27 21:38:35,370 [WARN] PackLoader:240 - Cannot read IP mode file for portGmbH.I-Cube-SoM-uGOAL.1.1.0
+2023-07-27 21:38:35,389 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2023-07-27 21:38:35,416 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WB.1.1.0
+2023-07-27 21:38:35,435 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.2.0.0
+2023-07-27 21:38:35,438 [INFO] ThirdParty:978 - Integrity check success = true
+2023-07-27 21:38:35,441 [INFO] IntegrityCheckThread:100 - exiting critical section [integrity check]
+2023-07-27 21:38:35,442 [INFO] IntegrityCheckThread:103 - End integrity checks thread
+2023-07-27 21:39:15,385 [INFO] McuFinderGlobals:63 - Set McuFinder mode to 2 (CubeIDE integrated)
+2023-07-27 21:39:15,385 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2023-07-27 21:39:15,418 [INFO] MainUpdater:2868 - connection check result : 10
+2023-07-27 21:39:15,459 [INFO] MenuBar:455 - Manual Refresh Data
+2023-07-27 21:39:15,462 [INFO] FinderAction:100 - Refresh Data: download all database files
+2023-07-27 21:39:15,981 [INFO] ServerAccessManage:473 - Download File mcusAds.json._tmp_
+2023-07-27 21:39:16,094 [INFO] LoadUrlFilesThread:156 - End of LoadUrlFiles Thread
+2023-07-27 21:39:16,467 [INFO] ServerAccessManage:473 - Download File cube-finder-db.zip
+2023-07-27 21:39:21,636 [INFO] FileExtend:240 - Unzip File : cube-finder-db.zip
+2023-07-27 21:39:21,637 [INFO] FileExtend:255 - Standard Zip Deflate
+2023-07-27 21:39:22,675 [INFO] LoadUrlFilesThread:156 - End of LoadUrlFiles Thread
+2023-07-27 21:39:23,062 [INFO] ServerAccessManage:473 - Download File crdb.zip
+2023-07-27 21:39:23,318 [INFO] FileExtend:240 - Unzip File : crdb.zip
+2023-07-27 21:39:23,319 [INFO] FileExtend:255 - Standard Zip Deflate
+2023-07-27 21:39:23,512 [INFO] LoadUrlFilesThread:156 - End of LoadUrlFiles Thread
+2023-07-27 21:39:23,719 [INFO] ServerAccessManage:473 - Download File tutoVideoDB.zip
+2023-07-27 21:39:23,746 [INFO] FileExtend:240 - Unzip File : tutoVideoDB.zip
+2023-07-27 21:39:23,747 [INFO] FileExtend:255 - Standard Zip Deflate
+2023-07-27 21:39:23,888 [INFO] LoadUrlFilesThread:156 - End of LoadUrlFiles Thread
+2023-07-27 21:39:23,895 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\Ansel\.stmcufinder\plugins\mcufinder/ => C:\Users\Ansel\.stmcufinder\plugins\mcufinder
+2023-07-27 21:39:24,060 [INFO] ServerAccessManage:473 - Download File api_config.json
+2023-07-27 21:39:24,186 [INFO] LoadUrlFilesThread:156 - End of LoadUrlFiles Thread
+2023-07-27 21:39:24,189 [INFO] DbMcusAds:53 - JSON generation date=Tue Mar 07 09:50:55 CET 2023 (1678179055114)
+2023-07-27 21:39:24,243 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2023-07-27 21:39:24,245 [INFO] FinderAction:110 - Refresh all data is successful
+2023-07-27 21:39:29,742 [INFO] MainUpdater:2868 - connection check result : 10
+2023-07-27 21:39:31,688 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Jul 27, 2023 9:39:31 PM java.util.prefs.WindowsPreferences <init>
+2023-07-27 21:39:31,700 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0xffffffff80000002. Windows RegCreateKeyEx(...) returned error code 5.
+2023-07-27 21:39:31,701 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2023-07-27 21:39:31,708 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Jul 27, 2023 9:39:31 PM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+2023-07-27 21:39:31,717 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs at root 0xffffffff80000002.
+2023-07-27 21:39:31,718 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2023-07-27 21:39:31,724 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Jul 27, 2023 9:39:31 PM java.util.prefs.WindowsPreferences openKey
+2023-07-27 21:39:31,734 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not open windows registry node Software\JavaSoft\Prefs at root 0xffffffff80000002. Windows RegOpenKey(...) returned error code 2.
+2023-07-27 21:39:31,735 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2023-07-27 21:39:31,743 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Jul 27, 2023 9:39:31 PM java.util.prefs.WindowsPreferences WindowsRegOpenKey1
+2023-07-27 21:39:31,749 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Trying to recreate Windows registry node Software\JavaSoft\Prefs at root 0xffffffff80000002.
+2023-07-27 21:39:31,749 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2023-07-27 21:39:31,756 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Jul 27, 2023 9:39:31 PM java.util.prefs.WindowsPreferences openKey
+2023-07-27 21:39:31,766 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not open windows registry node Software\JavaSoft\Prefs at root 0xffffffff80000002. Windows RegOpenKey(...) returned error code 2.
+2023-07-27 21:39:31,766 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2023-07-27 21:39:31,993 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2023-07-27 21:43:09,092 [INFO] ServerAccessManage:473 - Download File updaters.zip
+2023-07-27 21:43:09,231 [INFO] FileExtend:240 - Unzip File : updaters.zip
+2023-07-27 21:43:09,231 [INFO] FileExtend:255 - Standard Zip Deflate
+2023-07-27 21:43:09,779 [INFO] ServerAccessManage:473 - Download File PacksControlFlags.xml
+2023-07-27 21:43:09,857 [INFO] ServerAccessManage:473 - Download File cubemx.pidx
+2023-07-27 21:43:09,998 [INFO] LoadServerUpdatesThread:373 - End of LoadServerUpdate Thread
+2023-07-27 21:43:10,187 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2023-07-27 21:43:21,604 [INFO] McuFinderGlobals:63 - Set McuFinder mode to 2 (CubeIDE integrated)
+2023-07-27 21:43:21,605 [INFO] UserAuth:179 - activating auth plugin
+2023-07-27 21:43:21,612 [INFO] UserAuth:393 - Internet connection configuration mode: 1
+2023-07-27 21:44:41,173 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "Browser Thread: eb6b479a-4e16-4d16-a0a8-60e69c0aee2a" java.lang.NullPointerException: Cannot invoke "java.util.List.iterator()" because the return value of "com.st.microxplorer.plugins.userauth.WebApp.findElementsByTagName(com.teamdev.jxbrowser.browser.Browser, String)" is null
+2023-07-27 21:44:41,177 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.removeUnecessaryTags(WebApp.java:807)
+2023-07-27 21:44:41,180 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$9(WebApp.java:193)
+2023-07-27 21:44:41,184 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,187 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,189 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,193 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,196 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,199 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,204 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,207 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.document(FrameImpl.java:449)
+2023-07-27 21:44:41,210 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:733)
+2023-07-27 21:44:41,213 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:41,215 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:41,217 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:41,220 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,223 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,227 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,230 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,233 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,237 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,240 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,243 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.document(FrameImpl.java:449)
+2023-07-27 21:44:41,246 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findElementsByTagName(WebApp.java:723)
+2023-07-27 21:44:41,249 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.removeUnecessaryTags(WebApp.java:806)
+2023-07-27 21:44:41,252 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$9(WebApp.java:193)
+2023-07-27 21:44:41,255 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,259 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,262 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,266 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,269 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,299 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,302 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,306 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.dom.internal.DocumentImpl.documentElement(DocumentImpl.java:63)
+2023-07-27 21:44:41,308 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:734)
+2023-07-27 21:44:41,312 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:41,314 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:41,316 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:41,320 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,323 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,326 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,330 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,333 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,338 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,341 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,344 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.document(FrameImpl.java:449)
+2023-07-27 21:44:41,346 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findElementsByTagName(WebApp.java:723)
+2023-07-27 21:44:41,349 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.removeUnecessaryTags(WebApp.java:806)
+2023-07-27 21:44:41,352 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$9(WebApp.java:193)
+2023-07-27 21:44:41,356 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,360 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,362 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,365 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,368 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,372 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,376 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,379 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.dom.internal.DocumentImpl.documentElement(DocumentImpl.java:63)
+2023-07-27 21:44:41,382 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:734)
+2023-07-27 21:44:41,385 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:41,388 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:41,392 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:41,399 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,402 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,406 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,411 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,417 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,422 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,427 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,432 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.dom.internal.DocumentImpl.documentElement(DocumentImpl.java:63)
+2023-07-27 21:44:41,436 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:734)
+2023-07-27 21:44:41,440 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:41,444 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:41,448 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:41,453 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,457 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,463 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,467 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,473 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,478 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,483 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,487 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.document(FrameImpl.java:449)
+2023-07-27 21:44:41,492 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findElementsByTagName(WebApp.java:723)
+2023-07-27 21:44:41,496 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.removeUnecessaryTags(WebApp.java:806)
+2023-07-27 21:44:41,500 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$9(WebApp.java:193)
+2023-07-27 21:44:41,506 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,511 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,515 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,519 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,526 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,528 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-27 21:44:41,533 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "Browser Thread: eb6b479a-4e16-4d16-a0a8-60e69c0aee2a" java.lang.IllegalStateException
+2023-07-27 21:44:41,536 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+2023-07-27 21:44:41,541 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.PageContext.of(PageContext.java:68)
+2023-07-27 21:44:41,544 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.domContext(FrameImpl.java:246)
+2023-07-27 21:44:41,547 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.document(FrameImpl.java:451)
+2023-07-27 21:44:41,551 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:733)
+2023-07-27 21:44:41,556 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:41,559 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:41,563 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:41,569 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,573 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,577 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,582 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,587 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,591 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,596 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,601 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.document(FrameImpl.java:449)
+2023-07-27 21:44:41,605 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findElementsByTagName(WebApp.java:723)
+2023-07-27 21:44:41,607 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.removeUnecessaryTags(WebApp.java:806)
+2023-07-27 21:44:41,610 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$9(WebApp.java:193)
+2023-07-27 21:44:41,614 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,616 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,619 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,622 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,624 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,627 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,631 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,633 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.dom.internal.DocumentImpl.documentElement(DocumentImpl.java:63)
+2023-07-27 21:44:41,635 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:734)
+2023-07-27 21:44:41,637 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:41,639 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:41,641 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:41,644 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,647 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,649 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,651 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,654 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,657 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,659 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,662 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.document(FrameImpl.java:449)
+2023-07-27 21:44:41,664 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findElementsByTagName(WebApp.java:723)
+2023-07-27 21:44:41,667 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.removeUnecessaryTags(WebApp.java:806)
+2023-07-27 21:44:41,669 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$9(WebApp.java:193)
+2023-07-27 21:44:41,671 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,673 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,676 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,678 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,680 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,683 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,686 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,688 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.dom.internal.DocumentImpl.documentElement(DocumentImpl.java:63)
+2023-07-27 21:44:41,690 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:734)
+2023-07-27 21:44:41,692 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:41,694 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:41,696 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:41,699 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,701 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,704 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,706 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,709 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,711 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,714 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,716 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.dom.internal.DocumentImpl.documentElement(DocumentImpl.java:63)
+2023-07-27 21:44:41,718 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:734)
+2023-07-27 21:44:41,720 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:41,723 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:41,724 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:41,727 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,730 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,732 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,735 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,737 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,741 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,743 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,745 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.document(FrameImpl.java:449)
+2023-07-27 21:44:41,747 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findElementsByTagName(WebApp.java:723)
+2023-07-27 21:44:41,749 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.removeUnecessaryTags(WebApp.java:806)
+2023-07-27 21:44:41,751 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$9(WebApp.java:193)
+2023-07-27 21:44:41,755 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,756 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,758 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,761 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,763 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,765 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-27 21:44:41,768 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "Browser Thread: eb6b479a-4e16-4d16-a0a8-60e69c0aee2a" java.lang.IllegalStateException
+2023-07-27 21:44:41,770 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+2023-07-27 21:44:41,772 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.PageContext.of(PageContext.java:68)
+2023-07-27 21:44:41,774 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.domContext(FrameImpl.java:246)
+2023-07-27 21:44:41,776 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.document(FrameImpl.java:451)
+2023-07-27 21:44:41,778 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findElementsByTagName(WebApp.java:723)
+2023-07-27 21:44:41,780 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.removeUnecessaryTags(WebApp.java:806)
+2023-07-27 21:44:41,782 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$9(WebApp.java:193)
+2023-07-27 21:44:41,785 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,788 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,790 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,792 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,794 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,797 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,799 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,802 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.dom.internal.DocumentImpl.documentElement(DocumentImpl.java:63)
+2023-07-27 21:44:41,804 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:734)
+2023-07-27 21:44:41,806 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:41,807 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:41,809 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:41,812 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,814 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,816 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,819 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,821 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,823 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,826 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,828 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.document(FrameImpl.java:449)
+2023-07-27 21:44:41,830 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findElementsByTagName(WebApp.java:723)
+2023-07-27 21:44:41,832 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.removeUnecessaryTags(WebApp.java:806)
+2023-07-27 21:44:41,834 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$9(WebApp.java:193)
+2023-07-27 21:44:41,837 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,839 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,841 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,844 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,846 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,849 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,851 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,853 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.dom.internal.DocumentImpl.documentElement(DocumentImpl.java:63)
+2023-07-27 21:44:41,855 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:734)
+2023-07-27 21:44:41,857 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:41,859 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:41,861 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:41,865 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,866 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,868 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,870 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,873 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,875 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,878 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,881 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.dom.internal.DocumentImpl.documentElement(DocumentImpl.java:63)
+2023-07-27 21:44:41,883 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:734)
+2023-07-27 21:44:41,885 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:41,888 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:41,893 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:41,897 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,905 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,912 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,915 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,917 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,920 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,923 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,925 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.document(FrameImpl.java:449)
+2023-07-27 21:44:41,927 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findElementsByTagName(WebApp.java:723)
+2023-07-27 21:44:41,930 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.removeUnecessaryTags(WebApp.java:806)
+2023-07-27 21:44:41,932 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$9(WebApp.java:193)
+2023-07-27 21:44:41,934 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,936 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,938 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,942 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,944 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,945 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-27 21:44:41,948 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "Browser Thread: eb6b479a-4e16-4d16-a0a8-60e69c0aee2a" java.lang.IllegalStateException
+2023-07-27 21:44:41,950 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.deps.com.google.common.base.Preconditions.checkState(Preconditions.java:494)
+2023-07-27 21:44:41,952 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.CloseableMap.delegate(CloseableMap.java:63)
+2023-07-27 21:44:41,955 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.deps.com.google.common.collect.ForwardingMap.get(ForwardingMap.java:100)
+2023-07-27 21:44:41,958 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.DomContext.existingNode(DomContext.java:245)
+2023-07-27 21:44:41,960 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.DomContext.toNode(DomContext.java:103)
+2023-07-27 21:44:41,962 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.DomContext.toNode(DomContext.java:117)
+2023-07-27 21:44:41,964 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.DomContext.toOptionalNode(DomContext.java:149)
+2023-07-27 21:44:41,967 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.dom.internal.DocumentImpl.documentElement(DocumentImpl.java:64)
+2023-07-27 21:44:41,969 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:734)
+2023-07-27 21:44:41,971 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:41,974 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:41,976 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:41,978 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:41,981 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:41,983 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:41,986 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:41,988 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:41,991 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:41,994 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:41,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.document(FrameImpl.java:449)
+2023-07-27 21:44:41,998 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findElementsByTagName(WebApp.java:723)
+2023-07-27 21:44:42,000 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.removeUnecessaryTags(WebApp.java:806)
+2023-07-27 21:44:42,003 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$9(WebApp.java:193)
+2023-07-27 21:44:42,005 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:42,007 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:42,010 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:42,012 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:42,015 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:42,017 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:42,020 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:42,023 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.dom.internal.DocumentImpl.documentElement(DocumentImpl.java:63)
+2023-07-27 21:44:42,024 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:734)
+2023-07-27 21:44:42,027 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:42,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:42,029 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:42,032 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:42,034 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:42,037 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:42,039 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:42,042 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:42,044 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:42,046 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:42,048 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.dom.internal.DocumentImpl.documentElement(DocumentImpl.java:63)
+2023-07-27 21:44:42,050 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:734)
+2023-07-27 21:44:42,052 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:42,054 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:42,056 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:42,058 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:42,060 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:42,062 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:42,065 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:42,067 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:42,070 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:42,072 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:42,074 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.document(FrameImpl.java:449)
+2023-07-27 21:44:42,076 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findElementsByTagName(WebApp.java:723)
+2023-07-27 21:44:42,078 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.removeUnecessaryTags(WebApp.java:806)
+2023-07-27 21:44:42,080 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$9(WebApp.java:193)
+2023-07-27 21:44:42,082 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:42,084 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:42,086 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:42,089 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:42,091 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:42,092 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-27 21:44:42,094 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "Browser Thread: eb6b479a-4e16-4d16-a0a8-60e69c0aee2a" java.lang.IllegalStateException
+2023-07-27 21:44:42,096 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+2023-07-27 21:44:42,097 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.PageContext.of(PageContext.java:68)
+2023-07-27 21:44:42,099 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.domContext(FrameImpl.java:246)
+2023-07-27 21:44:42,101 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.document(FrameImpl.java:451)
+2023-07-27 21:44:42,103 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findElementsByTagName(WebApp.java:723)
+2023-07-27 21:44:42,105 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.removeUnecessaryTags(WebApp.java:806)
+2023-07-27 21:44:42,107 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$9(WebApp.java:193)
+2023-07-27 21:44:42,109 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:42,111 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:42,112 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:42,115 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:42,117 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:42,123 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:42,128 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:42,133 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.dom.internal.DocumentImpl.documentElement(DocumentImpl.java:63)
+2023-07-27 21:44:42,137 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:734)
+2023-07-27 21:44:42,140 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:42,144 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:42,149 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:42,154 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:42,160 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:42,167 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:42,171 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:42,176 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:42,182 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:42,186 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:42,190 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.dom.internal.DocumentImpl.documentElement(DocumentImpl.java:63)
+2023-07-27 21:44:42,192 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:734)
+2023-07-27 21:44:42,194 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:42,197 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:42,199 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:42,201 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:42,203 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:42,205 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:42,208 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:42,210 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:42,213 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:42,215 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:42,216 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.document(FrameImpl.java:449)
+2023-07-27 21:44:42,218 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findElementsByTagName(WebApp.java:723)
+2023-07-27 21:44:42,220 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.removeUnecessaryTags(WebApp.java:806)
+2023-07-27 21:44:42,222 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$9(WebApp.java:193)
+2023-07-27 21:44:42,226 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:42,227 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:42,230 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:42,233 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:42,235 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:42,237 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-27 21:44:42,240 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "Browser Thread: eb6b479a-4e16-4d16-a0a8-60e69c0aee2a" java.lang.IllegalStateException
+2023-07-27 21:44:42,245 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.deps.com.google.common.base.Preconditions.checkState(Preconditions.java:494)
+2023-07-27 21:44:42,248 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.CloseableMap.delegate(CloseableMap.java:63)
+2023-07-27 21:44:42,250 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.deps.com.google.common.collect.ForwardingMap.get(ForwardingMap.java:100)
+2023-07-27 21:44:42,253 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.DomContext.existingNode(DomContext.java:245)
+2023-07-27 21:44:42,257 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.DomContext.toNode(DomContext.java:103)
+2023-07-27 21:44:42,259 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.DomContext.toNode(DomContext.java:117)
+2023-07-27 21:44:42,261 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.DomContext.toOptionalNode(DomContext.java:149)
+2023-07-27 21:44:42,263 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.dom.internal.DocumentImpl.documentElement(DocumentImpl.java:64)
+2023-07-27 21:44:42,265 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:734)
+2023-07-27 21:44:42,266 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:42,268 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:42,269 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:42,272 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:42,274 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:42,276 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:42,278 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:42,280 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:42,282 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:42,284 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:42,287 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.dom.internal.DocumentImpl.documentElement(DocumentImpl.java:63)
+2023-07-27 21:44:42,289 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:734)
+2023-07-27 21:44:42,291 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:42,292 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:42,293 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:42,295 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:42,297 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:42,299 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:42,302 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:42,303 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:42,307 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:42,309 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:42,310 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.document(FrameImpl.java:449)
+2023-07-27 21:44:42,312 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findElementsByTagName(WebApp.java:723)
+2023-07-27 21:44:42,314 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.removeUnecessaryTags(WebApp.java:806)
+2023-07-27 21:44:42,315 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$9(WebApp.java:193)
+2023-07-27 21:44:42,318 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:42,320 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:42,321 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:42,323 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:42,325 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:42,326 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-27 21:44:42,328 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "Browser Thread: eb6b479a-4e16-4d16-a0a8-60e69c0aee2a" java.lang.IllegalStateException
+2023-07-27 21:44:42,330 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.deps.com.google.common.base.Preconditions.checkState(Preconditions.java:494)
+2023-07-27 21:44:42,332 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.CloseableMap.delegate(CloseableMap.java:63)
+2023-07-27 21:44:42,334 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.deps.com.google.common.collect.ForwardingMap.get(ForwardingMap.java:100)
+2023-07-27 21:44:42,335 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.DomContext.existingNode(DomContext.java:245)
+2023-07-27 21:44:42,338 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.DomContext.toNode(DomContext.java:103)
+2023-07-27 21:44:42,339 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.DomContext.toNode(DomContext.java:117)
+2023-07-27 21:44:42,341 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.DomContext.toOptionalNode(DomContext.java:149)
+2023-07-27 21:44:42,343 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.dom.internal.DocumentImpl.documentElement(DocumentImpl.java:64)
+2023-07-27 21:44:42,344 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findCloseButton(WebApp.java:734)
+2023-07-27 21:44:42,346 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$12(WebApp.java:244)
+2023-07-27 21:44:42,347 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+2023-07-27 21:44:42,349 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$16(WebApp.java:243)
+2023-07-27 21:44:42,351 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:42,353 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:42,354 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:42,356 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:42,358 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:42,360 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.transport.RpcThreadCallExecutor.execute(RpcThreadCallExecutor.java:41)
+2023-07-27 21:44:42,362 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.ServiceConnectionImpl.invoke(ServiceConnectionImpl.java:213)
+2023-07-27 21:44:42,363 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.document(FrameImpl.java:449)
+2023-07-27 21:44:42,365 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findElementsByTagName(WebApp.java:723)
+2023-07-27 21:44:42,367 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.removeUnecessaryTags(WebApp.java:806)
+2023-07-27 21:44:42,368 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$9(WebApp.java:193)
+2023-07-27 21:44:42,370 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:42,372 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:42,374 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:42,376 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:42,378 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:42,379 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-27 21:44:42,380 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "Browser Thread: eb6b479a-4e16-4d16-a0a8-60e69c0aee2a" java.lang.IllegalStateException
+2023-07-27 21:44:42,382 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+2023-07-27 21:44:42,383 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.PageContext.of(PageContext.java:68)
+2023-07-27 21:44:42,384 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.domContext(FrameImpl.java:246)
+2023-07-27 21:44:42,386 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.frame.internal.FrameImpl.document(FrameImpl.java:451)
+2023-07-27 21:44:42,387 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.findElementsByTagName(WebApp.java:723)
+2023-07-27 21:44:42,388 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.removeUnecessaryTags(WebApp.java:806)
+2023-07-27 21:44:42,390 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.userauth.WebApp.lambda$new$9(WebApp.java:193)
+2023-07-27 21:44:42,391 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.event.internal.NewObservableHelper.notifyObservers(NewObservableHelper.java:57)
+2023-07-27 21:44:42,393 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.dispatch(EventStream.java:74)
+2023-07-27 21:44:42,394 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.EventStream.process(EventStream.java:126)
+2023-07-27 21:44:42,396 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.rpc.stream.Stream$StreamObserver.lambda$onNext$0(Stream.java:167)
+2023-07-27 21:44:42,398 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.teamdev.jxbrowser.internal.RpcThreadImpl$TaskRunner.processTasks(RpcThreadImpl.java:172)
+2023-07-27 21:44:42,398 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-27 21:46:34,377 [INFO] WebApp:586 - userauth.ini created with success
+2023-07-27 21:46:40,052 [INFO] MainUpdater:2868 - connection check result : 10
+2023-07-27 21:46:40,314 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2023-07-27 21:46:51,021 [INFO] McuFinderGlobals:63 - Set McuFinder mode to 2 (CubeIDE integrated)
+2023-07-27 21:46:51,022 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2023-07-27 21:47:11,066 [INFO] MainUpdater:2868 - connection check result : 10
+2023-07-27 21:47:11,067 [INFO] MenuBar:455 - Manual Refresh Data
+2023-07-27 21:47:11,068 [INFO] FinderAction:100 - Refresh Data: download all database files
+2023-07-27 21:47:11,069 [WARN] FinderAction:118 - Updater is busy. Please wait a bit and retry.
+2023-07-27 21:47:19,854 [ERROR] FileExtend:455 - File entry not found
+2023-07-27 21:47:19,854 [INFO] FileExtend:240 - Unzip File : stm32cube_fw_l0_v1120.zip
+2023-07-27 21:47:19,854 [INFO] FileExtend:255 - Standard Zip Deflate
+2023-07-27 21:47:53,541 [INFO] ServerAccessManage:473 - Download File stm32cube_fw_l0_v1122.zip
+2023-07-27 21:48:01,815 [INFO] FileExtend:240 - Unzip File : stm32cube_fw_l0_v1122.zip
+2023-07-27 21:48:01,816 [INFO] FileExtend:255 - Standard Zip Deflate
+2023-07-27 21:48:12,207 [WARN] LoadServerPackagesThread:1331 - Error 1st try while moving folder into repository: C:\Users\Ansel\STM32Cube\Repository\STM32Cube_FW_L0_V1.12.2
+2023-07-27 21:48:17,211 [WARN] LoadServerPackagesThread:1335 - Error 2nd try while moving folder into repository 
+2023-07-27 21:48:22,215 [WARN] LoadServerPackagesThread:1411 - Error while moving folder into repository C:\Users\Ansel\STM32Cube\Repository\TMPUPD_11518748070247277098\STM32Cube_FW_L0_V1.12.0 -> C:\Users\Ansel\STM32Cube\Repository\STM32Cube_FW_L0_V1.12.2
+2023-07-27 21:48:22,718 [WARN] LoadServerPackagesThread:1411 - Error while moving folder into repository C:\Users\Ansel\STM32Cube\Repository\TMPUPD_11518748070247277098\STM32Cube_FW_L0_V1.12.0 -> C:\Users\Ansel\STM32Cube\Repository\STM32Cube_FW_L0_V1.12.2
+2023-07-27 21:48:23,350 [WARN] LoadServerPackagesThread:1411 - Error while moving folder into repository C:\Users\Ansel\STM32Cube\Repository\TMPUPD_11518748070247277098\STM32Cube_FW_L0_V1.12.0 -> C:\Users\Ansel\STM32Cube\Repository\STM32Cube_FW_L0_V1.12.2
+2023-07-27 21:48:23,853 [WARN] LoadServerPackagesThread:1411 - Error while moving folder into repository C:\Users\Ansel\STM32Cube\Repository\TMPUPD_11518748070247277098\STM32Cube_FW_L0_V1.12.0 -> C:\Users\Ansel\STM32Cube\Repository\STM32Cube_FW_L0_V1.12.2
+2023-07-27 21:48:24,357 [WARN] LoadServerPackagesThread:1411 - Error while moving folder into repository C:\Users\Ansel\STM32Cube\Repository\TMPUPD_11518748070247277098\STM32Cube_FW_L0_V1.12.0 -> C:\Users\Ansel\STM32Cube\Repository\STM32Cube_FW_L0_V1.12.2
+2023-07-27 21:48:24,860 [WARN] LoadServerPackagesThread:1411 - Error while moving folder into repository C:\Users\Ansel\STM32Cube\Repository\TMPUPD_11518748070247277098\STM32Cube_FW_L0_V1.12.0 -> C:\Users\Ansel\STM32Cube\Repository\STM32Cube_FW_L0_V1.12.2
+2023-07-27 21:48:25,364 [WARN] LoadServerPackagesThread:1411 - Error while moving folder into repository C:\Users\Ansel\STM32Cube\Repository\TMPUPD_11518748070247277098\STM32Cube_FW_L0_V1.12.0 -> C:\Users\Ansel\STM32Cube\Repository\STM32Cube_FW_L0_V1.12.2
+2023-07-27 21:48:25,869 [WARN] LoadServerPackagesThread:1411 - Error while moving folder into repository C:\Users\Ansel\STM32Cube\Repository\TMPUPD_11518748070247277098\STM32Cube_FW_L0_V1.12.0 -> C:\Users\Ansel\STM32Cube\Repository\STM32Cube_FW_L0_V1.12.2
+2023-07-27 21:48:26,457 [INFO] LoadServerPackagesThread:196 - End of LoadServerPackages Thread
+2023-07-27 21:48:26,643 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2023-07-27 21:48:42,268 [INFO] ServerAccessManage:473 - Download File updaters.zip
+2023-07-27 21:48:42,388 [INFO] FileExtend:240 - Unzip File : updaters.zip
+2023-07-27 21:48:42,388 [INFO] FileExtend:255 - Standard Zip Deflate
+2023-07-27 21:48:42,782 [INFO] ServerAccessManage:473 - Download File PacksControlFlags.xml
+2023-07-27 21:48:42,870 [INFO] ServerAccessManage:473 - Download File cubemx.pidx
+2023-07-27 21:48:42,900 [INFO] LoadServerUpdatesThread:373 - End of LoadServerUpdate Thread
+2023-07-27 21:48:43,062 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread

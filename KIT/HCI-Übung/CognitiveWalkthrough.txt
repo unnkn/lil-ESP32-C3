@@ -1,0 +1,21 @@
+1: What the Expert have to know before he starts the cognitive walkthrough.
+
+-User: Students, professors, employees, visitors.
+-context of use: We should find the Gaede Lecture Hall on the KIT Website.
+-task details: Go to the website "kit.edu" and find the the Gaede Lecture Hall.  
+		1. Will the correct action be sufficiently evident to
+		   the user?
+		2. Will the user notice that the correct action is
+		   available?
+		3. Will the user associate and interpret the response
+		   from the action correctly?
+		4. If correct action is performed, will the user see
+		   that progress is made towards his goals?
+
+2: writing down findings.
+
+-user can get to the website quickly.
+-the user will not quickly get that the correct action is available.
+-the obvious action is apparent to the user.
+-the user will associate and interpret the response from the action.
+-the user will see progress of the correct actions.
