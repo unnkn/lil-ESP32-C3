@@ -470,7 +470,11 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "led",
+      "resistor_smd_extended",
+      "resistor_smd_standard"
+    ]
   },
   "meta": {
     "filename": "ESP32-C3.kicad_pro",
@@ -605,6 +609,10 @@
     [
       "35961fef-fe97-49ba-90a9-cbb988ec3bed",
       ""
+    ],
+    [
+      "fa53471f-70aa-4ce3-99ec-d97d3fb2988c",
+      "charger"
     ]
   ],
   "text_variables": {}
