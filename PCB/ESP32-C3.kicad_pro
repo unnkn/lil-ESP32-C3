@@ -57,7 +57,6 @@
         }
       ],
       "drc_exclusions": [
-        "courtyards_overlap|108699999|72759999|4317e8a2-5701-419d-8166-00d6b89a1b39|bd716b4b-7e26-4907-8d8c-655645e76b2d",
         "items_not_allowed|121000000|65437500|53e840d7-a983-4c61-bcb1-c99aa1847813|00000000-0000-0000-0000-000000000000",
         "malformed_courtyard|109818701|73118600|da209cbf-9d40-4d6e-b71e-92af77b1d824|00000000-0000-0000-0000-000000000000",
         "malformed_courtyard|109818701|77381400|da209cbf-9d40-4d6e-b71e-92af77b1d824|00000000-0000-0000-0000-000000000000",
@@ -198,12 +197,17 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.15
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": true,
