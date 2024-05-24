@@ -92,7 +92,7 @@
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 6)
-			(plotframeref no)
+			(plotframeref yes)
 			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
@@ -114,9 +114,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerber")
 		)
 	)
 	(net 0 "")
@@ -1132,7 +1132,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R18"
-			(at 0 -1.17 270)
+			(at 0 -1.17 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "86281c80-7522-4a0a-b815-2e212e5180a6")
@@ -1144,7 +1144,7 @@
 			)
 		)
 		(property "Value" "8k2_0402"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(uuid "9dbd443a-8c55-472f-a98d-1456f417b44f")
 			(effects
@@ -1335,7 +1335,7 @@
 			(uuid "da46602e-6d53-473d-8ef0-c7b11a8165bf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "65eaa469-d677-47e3-8145-d60a70cc221c")
 			(effects
@@ -3088,7 +3088,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C11"
-			(at 0 -1.16 270)
+			(at 0 -1.16 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4b06febf-270c-4682-bfb3-4cf4473467de")
@@ -3100,7 +3100,7 @@
 			)
 		)
 		(property "Value" "100n_0402_X7R_16V"
-			(at 0 1.16 270)
+			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(uuid "10a9d733-8a2f-40e7-942b-55f68a06e396")
 			(effects
@@ -3147,7 +3147,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ed077b98-44bf-41f3-b370-71b528215183")
@@ -3159,7 +3159,7 @@
 			)
 		)
 		(property "Price1000" "0.0006"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9442bfad-08a6-4bd1-b1bd-71c8f73a077e")
@@ -3171,7 +3171,7 @@
 			)
 		)
 		(property "QtyReel" "10000"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f1ad1000-f614-4d32-b200-2f811919f2fd")
@@ -3288,7 +3288,7 @@
 			(uuid "9af3deca-765d-4a2f-9cc4-54a1bc50ce6f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "240030fd-6478-4a1f-a17f-3e38216206ad")
 			(effects
@@ -4933,7 +4933,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5252390"
+		(property "LCSC" "C2932473"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6108,7 +6108,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C5179616"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6319,7 +6319,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 -1.17 270)
+			(at 0 -1.17 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fb7c1cd8-99cc-41d1-afa3-1970805449dc")
@@ -6331,7 +6331,7 @@
 			)
 		)
 		(property "Value" "5k1_0402"
-			(at 0 1.17 270)
+			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(uuid "e68c01ab-c089-4bab-8cb5-dc992804ac5c")
 			(effects
@@ -6366,7 +6366,7 @@
 			)
 		)
 		(property "Description" "±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 138.5 81.5 270)
+			(at 138.5 81.5 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0fa2926c-1b37-49ff-948c-717f574d6ba3")
@@ -6377,7 +6377,7 @@
 			)
 		)
 		(property "LCSC" "C25905"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f9ecbf75-08d2-4b3c-9b75-a0b64a03a8b6")
@@ -6389,7 +6389,7 @@
 			)
 		)
 		(property "Tollerance" "1%"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b7a12a13-6d8c-4f7c-be0d-adcfb044b9b3")
@@ -6401,7 +6401,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "12f81389-3d63-41c8-afc8-a6801f2aa5be")
@@ -6518,7 +6518,7 @@
 			(uuid "5cc68047-081f-40b5-accc-3fa383a0df11")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "337c206f-d2e4-4b82-9b0e-13cecec17e73")
 			(effects
@@ -8308,7 +8308,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5252390"
+		(property "LCSC" "C2932473"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8766,7 +8766,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5368738"
+		(property "LCSC" "C7465576"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10012,7 +10012,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2848860"
+		(property "LCSC" "C5143572"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11701,7 +11701,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C426990"
+		(property "LCSC" "C5261247"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
