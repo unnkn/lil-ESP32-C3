@@ -9320,7 +9320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Left"
 			(at 82.55 92.71 0)
 			(effects
 				(font
