@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1,
-          "height": 2.0,
-          "width": 2.0
+          "drill": 0.0,
+          "height": 0.64,
+          "width": 0.54
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -59,28 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "hole_clearance|135500000|79990000|668e229e-b245-4dce-ab57-7b11fa0ee735|566bb606-5f59-42d3-a4ac-90ab1516c515",
-        "hole_clearance|135500000|79990000|668e229e-b245-4dce-ab57-7b11fa0ee735|c172a61d-d40a-4278-aeaa-5c33552af192",
-        "hole_clearance|135500000|80190000|668e229e-b245-4dce-ab57-7b11fa0ee735|b98f8bbe-2a9c-4a3f-85af-9528a3bbc585",
-        "hole_clearance|135500000|80190000|668e229e-b245-4dce-ab57-7b11fa0ee735|f1c0b37a-22e9-482a-b32e-775aa1421c6c",
-        "hole_clearance|135500000|85590000|9587b540-bf3b-4b2b-aa08-ec9860eb78e3|93c51b28-bbfb-4e62-96ab-80ed0a8dc2ac",
-        "hole_clearance|135500000|85590000|9587b540-bf3b-4b2b-aa08-ec9860eb78e3|ec40b377-2a77-494b-8445-8dd953df3e06",
-        "hole_clearance|135500000|85790000|9587b540-bf3b-4b2b-aa08-ec9860eb78e3|0b2adbb7-506b-4be8-8ebd-a3638dae79ca",
-        "hole_clearance|135500000|85790000|9587b540-bf3b-4b2b-aa08-ec9860eb78e3|bdef21b8-aa36-40a7-8222-03f368942d61",
-        "lib_footprint_mismatch|132570000|91300000|e7d9709a-1b84-4989-80aa-18137d0e118e|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|140600000|82600000|e7b0cc9c-03ea-4078-908a-452c070d0e9a|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|142400000|75400000|2c96a54f-9f6e-4eb4-acbe-5f344b05b6c4|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|143700000|89100000|da209cbf-9d40-4d6e-b71e-92af77b1d824|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|154225000|86300000|ab6c3326-16e9-4c0e-9988-64e22b0beb32|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|149300000|71130000|4b404185-e93d-4a99-8f87-348b46a624a9|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|149370000|75870000|d3155b10-020a-4ac6-b4fc-772f6fad67ff|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|150700000|71130000|33f34cd2-5d27-41cb-815a-e794c664c63c|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|152530000|75870000|054f6a3f-23aa-496f-b664-e1cfa1c57d72|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|153700000|71130000|5de8634c-2970-4b14-aebf-8fd6970755e6|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|153700000|75870000|e263ba5f-6757-49b6-b889-13015aa7d47c|00000000-0000-0000-0000-000000000000",
-        "starved_thermal|137400000|86810000|da966a5e-25ab-4f06-8606-30baa4c05998|8d2d329e-831e-433f-b5b0-8c051e708854|F.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -580,7 +559,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Gerber",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

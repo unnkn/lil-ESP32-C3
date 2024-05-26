@@ -3262,7 +3262,7 @@
 		)
 		(uuid "f9ba0ddb-bb7e-4bb9-bd55-1639f7529443")
 	)
-	(text "ILIM: maximaler Input Strom auf 1A limitiert.\nISET: Charge Strom auf 500mA gesetzt."
+	(text "ILIM: maximaler Input Strom auf 1A limitiert.\nISET: Charge Strom auf ~100mA gesetzt."
 		(exclude_from_sim no)
 		(at 99.06 114.3 0)
 		(effects
