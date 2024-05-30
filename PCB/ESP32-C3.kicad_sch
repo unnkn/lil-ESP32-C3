@@ -5,7 +5,7 @@
 	(uuid "35961fef-fe97-49ba-90a9-cbb988ec3bed")
 	(paper "A4")
 	(lib_symbols
-		(symbol "1_switch:TS4535TP 250gf 009"
+		(symbol "1_switch:TS-1187A-B-A-B"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -21,7 +21,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "TS4535TP 250gf 009"
+			(property "Value" "TS-1187A-B-A-B"
 				(at 0 -3.175 0)
 				(effects
 					(font
@@ -38,7 +38,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2212291709_SHOU-HAN-TS4535TP-250gf-009_C5342982.pdf"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_XKB-Connection-TS-1187A-B-A-B_C318884.pdf"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "No No 50mA 100MΩ 100000 Times 12V 250gf@±50gf Brick nogging SPST SMD Tactile Switches ROHS "
+			(property "Description" "No Without 50mA 5.1mm 100,000 Times 160gf 12V 5.1mm 1.5mm Round Button Brick nogging SPST SMD Tactile Switches ROHS "
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C5342982"
+			(property "LCSC" "C318884 "
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TS4535TP 250gf 009_0_1"
+			(symbol "TS-1187A-B-A-B_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -5129,7 +5129,7 @@
 		(uuid "23864c12-8cc3-4203-bf46-3624edda56a9")
 	)
 	(junction
-		(at 135.89 162.56)
+		(at 54.61 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "286b5c8c-8f0d-4fd3-8cd7-7346d74f91e8")
@@ -5147,7 +5147,7 @@
 		(uuid "3e2d7549-d27e-4072-94ef-3ad4064339c0")
 	)
 	(junction
-		(at 135.89 168.91)
+		(at 54.61 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "412a843d-3a9b-42cf-88eb-88945adc6c63")
@@ -5165,7 +5165,7 @@
 		(uuid "68aa3268-f8f7-482a-9950-cf72ff34be0a")
 	)
 	(junction
-		(at 118.11 171.45)
+		(at 36.83 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e8a616c-a3f7-49d4-9101-f372f77203db")
@@ -5195,7 +5195,7 @@
 		(uuid "852452d5-7626-4714-86c2-e0ceaf2004c8")
 	)
 	(junction
-		(at 143.51 162.56)
+		(at 62.23 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f12011e-7670-4608-bb79-a49af3648ed2")
@@ -5279,10 +5279,6 @@
 	(no_connect
 		(at 133.35 123.19)
 		(uuid "6b9b3b94-513e-4866-886e-3b4bd86e0e65")
-	)
-	(no_connect
-		(at 133.35 135.89)
-		(uuid "6b9b3b94-513e-4866-886e-3b4bd86e0e67")
 	)
 	(no_connect
 		(at 133.35 113.03)
@@ -5440,7 +5436,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 166.37) (xy 146.05 166.37)
+			(xy 62.23 181.61) (xy 64.77 181.61)
 		)
 		(stroke
 			(width 0)
@@ -5450,13 +5446,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 140.97) (xy 133.35 140.97)
+			(xy 116.84 156.21) (xy 116.84 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35624926-a86f-4d17-935b-3e95d0dd62ee")
+		(uuid "2fe6e39c-07be-4262-9bbe-747c2ee449ae")
 	)
 	(wire
 		(pts
@@ -5500,7 +5496,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 162.56) (xy 135.89 163.83)
+			(xy 54.61 177.8) (xy 54.61 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5580,6 +5576,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 135.89) (xy 133.35 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7de211-8db4-45dd-bc19-9898172aa9cb")
+	)
+	(wire
+		(pts
 			(xy 57.15 31.75) (xy 62.23 31.75)
 		)
 		(stroke
@@ -5610,7 +5616,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 171.45) (xy 118.11 171.45)
+			(xy 33.02 186.69) (xy 36.83 186.69)
 		)
 		(stroke
 			(width 0)
@@ -5850,7 +5856,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 168.91) (xy 146.05 168.91)
+			(xy 54.61 184.15) (xy 64.77 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5950,7 +5956,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 173.99) (xy 146.05 173.99)
+			(xy 62.23 189.23) (xy 64.77 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5970,6 +5976,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 146.05) (xy 116.84 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a343ea95-dca7-4cea-a7d9-b07d9b79a58b")
+	)
+	(wire
+		(pts
 			(xy 55.88 34.29) (xy 57.15 34.29)
 		)
 		(stroke
@@ -5980,7 +5996,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 160.02) (xy 143.51 162.56)
+			(xy 62.23 175.26) (xy 62.23 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6030,7 +6046,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 168.91) (xy 135.89 168.91)
+			(xy 49.53 184.15) (xy 54.61 184.15)
 		)
 		(stroke
 			(width 0)
@@ -6050,7 +6066,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 173.99) (xy 143.51 175.26)
+			(xy 62.23 189.23) (xy 62.23 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6120,7 +6136,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 162.56) (xy 143.51 162.56)
+			(xy 54.61 177.8) (xy 62.23 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6200,7 +6216,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 162.56) (xy 135.89 162.56)
+			(xy 36.83 177.8) (xy 54.61 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6240,7 +6256,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 162.56) (xy 143.51 166.37)
+			(xy 62.23 177.8) (xy 62.23 181.61)
 		)
 		(stroke
 			(width 0)
@@ -6280,7 +6296,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 171.45) (xy 146.05 171.45)
+			(xy 36.83 186.69) (xy 64.77 186.69)
 		)
 		(stroke
 			(width 0)
@@ -6300,7 +6316,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 166.37) (xy 118.11 162.56)
+			(xy 36.83 181.61) (xy 36.83 177.8)
 		)
 		(stroke
 			(width 0)
@@ -6347,6 +6363,16 @@
 			(type default)
 		)
 		(uuid "ea5825e0-f373-4945-943f-ce50a6d18cdf")
+	)
+	(wire
+		(pts
+			(xy 116.84 140.97) (xy 133.35 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eac5e329-7d55-4f07-9a79-b66fd644f027")
 	)
 	(wire
 		(pts
@@ -6535,7 +6561,7 @@
 	)
 	(global_label "MCU_SCL"
 		(shape input)
-		(at 114.3 171.45 180)
+		(at 33.02 186.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6545,7 +6571,7 @@
 		)
 		(uuid "03744c38-2d2f-4e79-8ed9-0ca23b93c087")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.3598 171.3706 0)
+			(at 22.0798 186.6106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6579,7 +6605,7 @@
 	)
 	(global_label "NCE"
 		(shape input)
-		(at 132.08 140.97 180)
+		(at 132.08 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6589,7 +6615,7 @@
 		)
 		(uuid "33c9bcd8-eceb-4346-92e9-6d3447530e75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.3453 140.97 0)
+			(at 125.3453 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6953,7 +6979,7 @@
 	)
 	(global_label "MCU_SDA"
 		(shape input)
-		(at 130.81 168.91 180)
+		(at 49.53 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6963,7 +6989,7 @@
 		)
 		(uuid "d50f122b-66a7-4601-9b01-f8d92be49cc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.8093 168.8306 0)
+			(at 38.5293 184.0706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7281,7 +7307,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 143.51 160.02 0)
+		(at 62.23 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7290,7 +7316,7 @@
 		(fields_autoplaced yes)
 		(uuid "102514b9-4191-42f3-89c2-9465fb0bad3b")
 		(property "Reference" "#PWR035"
-			(at 143.51 163.83 0)
+			(at 62.23 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7299,7 +7325,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 143.51 154.94 0)
+			(at 62.23 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7307,7 +7333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 160.02 0)
+			(at 62.23 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7316,7 +7342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 160.02 0)
+			(at 62.23 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7325,7 +7351,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 160.02 0)
+			(at 62.23 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7600,7 +7626,7 @@
 	)
 	(symbol
 		(lib_id "resistor_smd_standard:5k1_0402")
-		(at 118.11 168.91 180)
+		(at 36.83 184.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7608,7 +7634,7 @@
 		(dnp no)
 		(uuid "230fcc76-8c0a-4343-b6e3-5db1a119345b")
 		(property "Reference" "R7"
-			(at 115.57 168.91 90)
+			(at 34.29 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,7 +7642,7 @@
 			)
 		)
 		(property "Value" "5k1_0402"
-			(at 116.84 168.91 0)
+			(at 35.56 184.15 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -7625,7 +7651,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 134.62 157.48 0)
+			(at 53.34 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7634,7 +7660,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
-			(at 118.11 159.385 0)
+			(at 36.83 174.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7643,7 +7669,7 @@
 			)
 		)
 		(property "Description" "±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 117.475 165.735 0)
+			(at 36.195 180.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7652,7 +7678,7 @@
 			)
 		)
 		(property "LCSC" "C25905"
-			(at 125.73 168.91 0)
+			(at 44.45 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7661,7 +7687,7 @@
 			)
 		)
 		(property "Tollerance" "1%"
-			(at 125.73 173.99 0)
+			(at 44.45 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7670,7 +7696,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 125.73 171.45 0)
+			(at 44.45 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7688,6 +7714,72 @@
 			(project "ESP32-C3"
 				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "262f572e-fa05-4ea5-bb7f-0ec9b4854059")
+		(property "Reference" "#PWR012"
+			(at 116.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0665a49-76bd-4d07-b694-ce45a2bdfb8f")
+		)
+		(instances
+			(project "ESP32-C3"
+				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8199,7 +8291,7 @@
 	)
 	(symbol
 		(lib_id "resistor_smd_standard:5k1_0402")
-		(at 135.89 166.37 180)
+		(at 54.61 181.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8207,7 +8299,7 @@
 		(dnp no)
 		(uuid "49feaa25-a9fe-4a6c-9877-2948c7803eb7")
 		(property "Reference" "R8"
-			(at 133.35 166.37 90)
+			(at 52.07 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8215,7 +8307,7 @@
 			)
 		)
 		(property "Value" "5k1_0402"
-			(at 134.62 166.37 0)
+			(at 53.34 181.61 0)
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -8224,7 +8316,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 152.4 154.94 0)
+			(at 71.12 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,7 +8325,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
-			(at 135.89 156.845 0)
+			(at 54.61 172.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,7 +8334,7 @@
 			)
 		)
 		(property "Description" "±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 135.255 163.195 0)
+			(at 53.975 178.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8251,7 +8343,7 @@
 			)
 		)
 		(property "LCSC" "C25905"
-			(at 143.51 166.37 0)
+			(at 62.23 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8260,7 +8352,7 @@
 			)
 		)
 		(property "Tollerance" "1%"
-			(at 143.51 171.45 0)
+			(at 62.23 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8269,7 +8361,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 143.51 168.91 0)
+			(at 62.23 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8808,6 +8900,85 @@
 			(project "ESP32-C3"
 				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_switch:TS-1187A-B-A-B")
+		(at 53.34 158.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5be2f3d2-aa38-463f-8a39-a329103dcf8c")
+		(property "Reference" "SW1"
+			(at 54.61 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 54.61 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "switch:SW_SPST_TL3305B"
+			(at 48.26 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_XKB-Connection-TS-1187A-B-A-B_C318884.pdf"
+			(at 48.26 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "No Without 50mA 5.1mm 100,000 Times 160gf 12V 5.1mm 1.5mm Round Button Brick nogging SPST SMD Tactile Switches ROHS "
+			(at 53.34 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318884 "
+			(at 53.34 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8344bd34-ba92-41d9-9ddc-493d73c4eee2")
+		)
+		(pin "1"
+			(uuid "a0b7fe3f-56ce-4831-8f81-d72100ca23e0")
+		)
+		(instances
+			(project "ESP32-C3"
+				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -9459,85 +9630,6 @@
 			(project "ESP32-C3"
 				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "1_switch:TS4535TP 250gf 009")
-		(at 53.34 158.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79e2f6cf-b2b9-4db5-aab2-6db6e8da4fed")
-		(property "Reference" "SW2"
-			(at 54.61 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TS4535TP 250gf 009"
-			(at 54.61 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "switch:SW_SPST_TL3305B"
-			(at 48.26 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2212291709_SHOU-HAN-TS4535TP-250gf-009_C5342982.pdf"
-			(at 48.26 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5342982"
-			(at 53.34 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ea4588f-d53a-4fe8-be48-7cc7a55469e3")
-		)
-		(pin "2"
-			(uuid "5d475609-4929-48f0-8c69-a3193da1227a")
-		)
-		(instances
-			(project "ESP32-C3"
-				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -10238,7 +10330,7 @@
 	)
 	(symbol
 		(lib_id "DPS_connectors:DPS_485")
-		(at 151.13 171.45 0)
+		(at 69.85 186.69 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10247,7 +10339,7 @@
 		(dnp no)
 		(uuid "a38f2bb4-6dc9-47b1-a2c9-f4737d354f79")
 		(property "Reference" "J1"
-			(at 158.75 171.45 0)
+			(at 77.47 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10256,7 +10348,7 @@
 			)
 		)
 		(property "Value" "HCZZ0039-3"
-			(at 161.29 165.1 0)
+			(at 80.01 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10264,7 +10356,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
-			(at 150.495 167.005 0)
+			(at 69.215 182.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10273,7 +10365,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2306261509_Hong-Cheng-HCZZ0032-3_C7433424.pdf"
-			(at 151.765 165.735 0)
+			(at 70.485 180.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10282,7 +10374,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 171.45 0)
+			(at 69.85 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10291,7 +10383,7 @@
 			)
 		)
 		(property "LCSC" "C7433424"
-			(at 151.13 167.005 0)
+			(at 69.85 182.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10300,7 +10392,7 @@
 			)
 		)
 		(property "JLCPCB_CORRECTION" "0;0;180"
-			(at 151.13 166.37 0)
+			(at 69.85 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10309,7 +10401,7 @@
 			)
 		)
 		(property "Price1000" "0.0208"
-			(at 151.13 166.37 0)
+			(at 69.85 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10318,7 +10410,7 @@
 			)
 		)
 		(property "QtyReel" " 2000"
-			(at 151.13 165.735 0)
+			(at 69.85 180.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10420,6 +10512,85 @@
 			(project "ESP32-C3"
 				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
 					(reference "AE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_switch:TS-1187A-B-A-B")
+		(at 116.84 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8ec2ea2-b6c8-437e-a2b5-8c5356f91170")
+		(property "Reference" "SW2"
+			(at 118.11 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS-1187A-B-A-B"
+			(at 118.11 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "switch:SW_SPST_TL3305B"
+			(at 111.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_XKB-Connection-TS-1187A-B-A-B_C318884.pdf"
+			(at 111.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "No Without 50mA 5.1mm 100,000 Times 160gf 12V 5.1mm 1.5mm Round Button Brick nogging SPST SMD Tactile Switches ROHS "
+			(at 116.84 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318884 "
+			(at 116.84 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b204c14-2ba9-4c94-902b-cf4641d81ba1")
+		)
+		(pin "1"
+			(uuid "d78a5d4f-f75b-4869-9586-7e2685893fb2")
+		)
+		(instances
+			(project "ESP32-C3"
+				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -11333,7 +11504,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 175.26 0)
+		(at 62.23 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11342,7 +11513,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6359a5d-03ad-4acc-ab90-dadd236478ca")
 		(property "Reference" "#PWR036"
-			(at 143.51 181.61 0)
+			(at 62.23 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11351,7 +11522,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 180.34 0)
+			(at 62.23 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11359,7 +11530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 175.26 0)
+			(at 62.23 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11368,7 +11539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 175.26 0)
+			(at 62.23 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11377,7 +11548,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 175.26 0)
+			(at 62.23 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)

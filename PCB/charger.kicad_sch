@@ -4073,7 +4073,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2932473"
+		(property "LCSC" "C23733"
 			(at 170.18 74.93 0)
 			(effects
 				(font
@@ -4639,7 +4639,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0603_GREEN"
+		(property "Value" "0603_WHITE"
 			(at 165.1 111.8235 90)
 			(effects
 				(font
@@ -4657,7 +4657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2305091500_Hubei-KENTO-Elec-KT-0603W_C2290.pdf"
 			(at 162.56 110.49 90)
 			(effects
 				(font
@@ -4675,7 +4675,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5179616"
+		(property "LCSC" "C2290"
 			(at 162.56 110.49 0)
 			(effects
 				(font
@@ -5184,7 +5184,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2932473"
+		(property "LCSC" "C23733"
 			(at 182.88 55.88 0)
 			(effects
 				(font
@@ -5599,7 +5599,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8k2_0402"
+		(property "Value" "5k1_0402"
 			(at 125.73 99.06 0)
 			(effects
 				(font
@@ -5626,7 +5626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 8.2kΩ 0402  Chip Resistor - Surface Mount ROHS"
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 123.19 97.79 0)
 			(effects
 				(font
@@ -5635,7 +5635,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25924"
+		(property "LCSC" "C25905"
 			(at 123.825 100.965 0)
 			(effects
 				(font
