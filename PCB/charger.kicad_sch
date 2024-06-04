@@ -2909,9 +2909,9 @@
 		)
 		(uuid "f9ba0ddb-bb7e-4bb9-bd55-1639f7529443")
 	)
-	(text "ILIM: maximaler Input Strom auf 1A limitiert.\nISET: Charge Strom auf ~100mA gesetzt."
+	(text "ILIM: maximaler Input Strom auf 1A limitiert.\nISET: Charge Strom auf ~100mA gesetzt.\nEN2: 0;  EN1: 1 \n=> Input Strom wird durch ILIM limitiert."
 		(exclude_from_sim no)
-		(at 99.06 114.3 0)
+		(at 97.282 120.142 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3310,9 +3310,9 @@
 		(at 83.82 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1ea67aa4-13d1-42c0-a768-1d2179f8a608")
 		(property "Reference" "R5"
 			(at 81.28 81.28 90)
