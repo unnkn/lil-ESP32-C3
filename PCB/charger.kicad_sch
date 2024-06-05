@@ -692,6 +692,216 @@
 				)
 			)
 		)
+		(symbol "dcdc:DS8242-33SS3(ext)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 2.54 -10.16 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+			(property "Value" "DS8242-33SS3"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at -10.541 10.795 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2306301041_DSTECH-DS8242-33SS3_C5884134.pdf"
+				(at -10.541 10.795 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "500mA 70dB@(1kHz) null 3.3V positive 35V SOT-23  Linear Voltage Regulators (LDO) ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C5884134"
+				(at 0.635 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "QtyReel" "3000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price1000" "0.0179"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_CORRECTION" "0;0;180"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "18V LDO 3.3V SOT23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DS8242-33SS3(ext)_0_0"
+				(text "3V3"
+					(at 10.16 2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "connect "
+					(at -5.715 3.81 0)
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+						(justify left)
+					)
+				)
+				(text "connect "
+					(at 6.35 3.81 0)
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+						(justify right)
+					)
+				)
+			)
+			(symbol "DS8242-33SS3(ext)_0_1"
+				(rectangle
+					(start -6.35 7.62)
+					(end 6.35 -7.62)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "DS8242-33SS3(ext)_1_0"
+				(text "1uF"
+					(at -5.715 2.54 0)
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+						(justify left)
+					)
+				)
+				(text "1uF-22uF"
+					(at 5.715 2.54 0)
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
+						(justify right)
+					)
+				)
+			)
+			(symbol "DS8242-33SS3(ext)_1_1"
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 11.43 5.08 180)
+					(length 5.08)
+					(name "Out"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 5.08 0)
+					(length 5.08)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "led:0603_GREEN"
 			(pin_numbers hide)
 			(pin_names
@@ -2306,10 +2516,28 @@
 		(uuid "0af0db21-e9c0-4e10-b2ba-a5e59647480f")
 	)
 	(junction
+		(at 214.63 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c40ac90-73cc-4610-b9de-4a6ac2e711c3")
+	)
+	(junction
 		(at 83.82 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1340d3dd-bf7c-4da0-93fa-a0d22786653e")
+	)
+	(junction
+		(at 182.88 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dd4a3be-3dd6-45a8-84e6-8678ee63861a")
+	)
+	(junction
+		(at 214.63 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77f38c81-c259-4a07-ae5d-b50f0a62d953")
 	)
 	(junction
 		(at 135.89 53.34)
@@ -2336,16 +2564,16 @@
 		(uuid "bbd3be66-5172-4485-846f-6c53b4d64aec")
 	)
 	(junction
-		(at 182.88 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c90c9f10-b1b1-492c-ad44-b9f83251eb6b")
-	)
-	(junction
 		(at 123.19 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7c9ab5a-a2f0-47b0-91ee-3382a3f569d9")
+	)
+	(junction
+		(at 229.87 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecb01313-6c45-4012-ad21-a6ffd29251eb")
 	)
 	(junction
 		(at 170.18 72.39)
@@ -2421,6 +2649,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 57.15) (xy 229.87 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18288732-7f16-4b3a-b192-118ec3cbf1c5")
+	)
+	(wire
+		(pts
 			(xy 72.39 81.28) (xy 72.39 88.9)
 		)
 		(stroke
@@ -2448,6 +2686,26 @@
 			(type default)
 		)
 		(uuid "22477844-a7dc-4e89-a695-fe8ca3efb1bf")
+	)
+	(wire
+		(pts
+			(xy 214.63 71.12) (xy 214.63 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8a658e-3e65-48cc-831e-37cd0f79c980")
+	)
+	(wire
+		(pts
+			(xy 229.87 53.34) (xy 226.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3772b45b-6421-4f5e-b6fa-558ae846b226")
 	)
 	(wire
 		(pts
@@ -2491,13 +2749,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 50.8) (xy 182.88 53.34)
+			(xy 182.88 53.34) (xy 203.2 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "442f5581-e440-4e6c-8b27-0cd741195c0a")
+		(uuid "41898bcf-aa42-47ef-b135-e88a01d3e872")
 	)
 	(wire
 		(pts
@@ -2588,6 +2846,16 @@
 			(type default)
 		)
 		(uuid "7832bb85-7373-42a4-b44c-c3e0c3a3f187")
+	)
+	(wire
+		(pts
+			(xy 214.63 74.93) (xy 214.63 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79832433-e040-49e2-9c4f-f8292e53a9db")
 	)
 	(wire
 		(pts
@@ -2698,6 +2966,16 @@
 			(type default)
 		)
 		(uuid "8f02597a-cf29-4e91-897a-a1d5b939c85b")
+	)
+	(wire
+		(pts
+			(xy 229.87 53.34) (xy 234.95 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f61922-ed1f-4da5-a67a-d24d4ee0fcdb")
 	)
 	(wire
 		(pts
@@ -2861,6 +3139,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 62.23) (xy 229.87 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e05aa01d-95e3-4f9a-a922-1bcc5d14fa0a")
+	)
+	(wire
+		(pts
 			(xy 135.89 53.34) (xy 135.89 66.04)
 		)
 		(stroke
@@ -2898,6 +3186,16 @@
 			(type default)
 		)
 		(uuid "f5ea3cdd-f886-4afc-9d0a-0d2f2ab5df25")
+	)
+	(wire
+		(pts
+			(xy 229.87 71.12) (xy 214.63 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f91b91bf-9e41-4a4e-9dd3-fdb86d8f308b")
 	)
 	(wire
 		(pts
@@ -3100,7 +3398,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 135.89 59.69 90)
+		(at 234.95 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3108,9 +3406,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a13e8aa1-ad52-4f32-8212-4cd9ea51d9b5")
-		(property "Netclass" "Power"
-			(at 133.35 58.9915 90)
+		(uuid "7e1bbb49-884d-4cbf-a0e5-5e2cfa72448c")
+		(property "Netclass" "3V3"
+			(at 235.6485 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,7 +3421,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 163.83 53.34 0)
+		(at 135.89 59.69 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3131,9 +3429,9 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a7ed0f06-962b-4ddb-8172-2363b0e11c97")
-		(property "Netclass" "3V3"
-			(at 164.5285 50.8 0)
+		(uuid "a13e8aa1-ad52-4f32-8212-4cd9ea51d9b5")
+		(property "Netclass" "Power"
+			(at 133.35 58.9915 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3804,72 +4102,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 182.88 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b523ed5-e67d-47fb-b404-e4af44c5fd48")
-		(property "Reference" "#PWR041"
-			(at 182.88 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 182.88 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 182.88 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c7862ce-b084-42bf-acf4-89e6b3e7a63e")
-		)
-		(instances
-			(project "ESP32-C3"
-				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "resistor_smd_standard:1k5_0603")
 		(at 110.49 97.79 0)
 		(unit 1)
@@ -4361,6 +4593,138 @@
 			(project "ESP32-C3"
 				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 214.63 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "861ce574-57b5-4f62-b713-d40515fe666e")
+		(property "Reference" "#PWR013"
+			(at 214.63 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08440d72-22f9-4458-b196-9b6daded74ad")
+		)
+		(instances
+			(project "ESP32-C3"
+				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 229.87 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9489ce36-d779-4d58-b87e-0b793dec0230")
+		(property "Reference" "#PWR014"
+			(at 229.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 229.87 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a784ba04-42b3-4741-9c8b-cdee1a6cf9a2")
+		)
+		(instances
+			(project "ESP32-C3"
+				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5063,6 +5427,113 @@
 		)
 	)
 	(symbol
+		(lib_id "dcdc:DS8242-33SS3(ext)")
+		(at 214.63 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e123bf1f-ae1c-4eac-bf51-701742acfb68")
+		(property "Reference" "U4"
+			(at 217.4294 45.72 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" "DS8242-33SS3"
+			(at 217.4294 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 204.089 47.625 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2306301041_DSTECH-DS8242-33SS3_C5884134.pdf"
+			(at 204.089 47.625 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA 70dB@(1kHz) null 3.3V positive 35V SOT-23  Linear Voltage Regulators (LDO) ROHS"
+			(at 214.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5884134"
+			(at 215.265 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QtyReel" "3000"
+			(at 214.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price1000" "0.0179"
+			(at 214.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;180"
+			(at 214.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "418b8a50-ff35-43f1-87ab-29093c8b5933")
+		)
+		(pin "3"
+			(uuid "9673fe68-c7f7-479a-aada-065595a301a0")
+		)
+		(pin "2"
+			(uuid "e9f738c3-15a2-44c0-9c72-174186d84143")
+		)
+		(instances
+			(project ""
+				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "resistor_smd_standard:8k2_0402")
 		(at 123.19 97.79 0)
 		(unit 1)
@@ -5154,6 +5625,94 @@
 			(project "ESP32-C3"
 				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "capacitor_smd_standard:1u_0402_X5R_25V")
+		(at 229.87 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee8e390a-dc38-45f6-915c-9a68c3508528")
+		(property "Reference" "C9"
+			(at 232.41 59.0612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u_0402_X5R_25V"
+			(at 232.41 60.9663 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 229.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811091611_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
+			(at 229.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V 1uF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 229.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 229.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price1000" "0.0020"
+			(at 229.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42c5ecbd-5528-423e-8e92-bf703f393dc2")
+		)
+		(pin "1"
+			(uuid "6b5b6193-dfaa-4572-a364-e6f8d0d1a08f")
+		)
+		(instances
+			(project "ESP32-C3"
+				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5265,7 +5824,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BQ24072RGT"
+		(property "Value" "BQ24073RGTR"
 			(at 152.4 67.31 0)
 			(effects
 				(font
@@ -5302,7 +5861,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C140288"
+		(property "LCSC" "C15220"
 			(at 135.89 81.28 0)
 			(effects
 				(font
