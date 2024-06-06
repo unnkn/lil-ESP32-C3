@@ -4778,7 +4778,7 @@
 				)
 			)
 		)
-		(symbol "resistor_smd_standard:100_0402"
+		(symbol "resistor_smd_standard:120_0402"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254) hide)
@@ -4794,7 +4794,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "100_0402"
+			(property "Value" "120_0402"
 				(at 1.27 0 0)
 				(effects
 					(font
@@ -4812,7 +4812,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110252230_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
 				(at 0 -3.175 0)
 				(effects
 					(font
@@ -4821,7 +4821,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "±1% 1/16W Thick Film Resistors 50V ±200ppm/℃ -55℃~+155℃ 100Ω 0402 Chip Resistor - Surface Mount ROHS"
+			(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 120Ω 0402  Chip Resistor - Surface Mount ROHS"
 				(at 0.635 -3.175 0)
 				(effects
 					(font
@@ -4830,7 +4830,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C25076"
+			(property "LCSC" "C25079"
 				(at 0.635 -3.175 0)
 				(effects
 					(font
@@ -4857,7 +4857,7 @@
 					(hide yes)
 				)
 			)
-			(property "Price1000" "0.0003"
+			(property "Price1000" "0.0004"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4884,7 +4884,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "100_0402_0_1"
+			(symbol "120_0402_0_1"
 				(rectangle
 					(start -0.762 1.778)
 					(end 0.762 -1.778)
@@ -4897,7 +4897,7 @@
 					)
 				)
 			)
-			(symbol "100_0402_1_1"
+			(symbol "120_0402_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 0.762)
@@ -7372,6 +7372,110 @@
 		)
 	)
 	(symbol
+		(lib_id "resistor_smd_standard:120_0402")
+		(at 243.84 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10b47588-66ab-4f3e-b607-8a248465e780")
+		(property "Reference" "R12"
+			(at 243.84 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120_0402"
+			(at 243.84 41.91 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 247.015 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+			(at 247.015 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 120Ω 0402  Chip Resistor - Surface Mount ROHS"
+			(at 247.015 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25079"
+			(at 247.015 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tollerance" "1%"
+			(at 245.11 42.545 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 245.11 40.64 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price1000" "0.0004"
+			(at 243.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "102dc54b-7573-4e03-a71c-4ffc5cc42803")
+		)
+		(pin "1"
+			(uuid "f892b196-6a03-4fc4-8ae5-d95882dd13f1")
+		)
+		(instances
+			(project ""
+				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "capacitor_smd_standard:100n_0402_X7R_16V")
 		(at 87.63 113.03 0)
 		(mirror x)
@@ -8385,110 +8489,6 @@
 		)
 	)
 	(symbol
-		(lib_id "resistor_smd_standard:100_0402")
-		(at 243.84 54.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d088c5e-f29a-496d-a7eb-fb0b8cd534cd")
-		(property "Reference" "R19"
-			(at 243.84 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100_0402"
-			(at 243.84 52.07 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 247.015 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110252230_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
-			(at 247.015 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "±1% 1/16W Thick Film Resistors 50V ±200ppm/℃ -55℃~+155℃ 100Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 247.015 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25076"
-			(at 247.015 53.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tollerance" "1%"
-			(at 245.11 52.705 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 245.11 50.8 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price1000" "0.0003"
-			(at 243.84 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c7d78fb-c44d-4d9f-934e-b11b3570aa84")
-		)
-		(pin "2"
-			(uuid "81c75507-6011-4148-82a7-2b9c7cd21018")
-		)
-		(instances
-			(project "ESP32-C3"
-				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ESP32-C3_Bib:10p_0402_C0G_50V")
 		(at 228.6 123.19 90)
 		(unit 1)
@@ -8796,110 +8796,6 @@
 			(project "ESP32-C3"
 				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "resistor_smd_standard:100_0402")
-		(at 243.84 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "597282bc-52c1-4442-9785-79b6c0583fa5")
-		(property "Reference" "R21"
-			(at 243.84 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100_0402"
-			(at 243.84 41.91 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 247.015 43.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110252230_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
-			(at 247.015 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "±1% 1/16W Thick Film Resistors 50V ±200ppm/℃ -55℃~+155℃ 100Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 247.015 43.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25076"
-			(at 247.015 43.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tollerance" "1%"
-			(at 245.11 42.545 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 245.11 40.64 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price1000" "0.0003"
-			(at 243.84 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5449592c-05b8-44d2-8eed-48d996d96a78")
-		)
-		(pin "2"
-			(uuid "c2079ff5-fc59-46e1-a21c-fe9d16e0eed5")
-		)
-		(instances
-			(project "ESP32-C3"
-				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -10983,110 +10879,6 @@
 		)
 	)
 	(symbol
-		(lib_id "resistor_smd_standard:100_0402")
-		(at 243.84 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c645041a-81e3-48e6-8019-076c40cc0218")
-		(property "Reference" "R14"
-			(at 243.84 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100_0402"
-			(at 243.84 46.99 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 247.015 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110252230_UNI-ROYAL-Uniroyal-Elec-0402WGF1000TCE_C25076.pdf"
-			(at 247.015 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "±1% 1/16W Thick Film Resistors 50V ±200ppm/℃ -55℃~+155℃ 100Ω 0402 Chip Resistor - Surface Mount ROHS"
-			(at 247.015 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25076"
-			(at 247.015 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tollerance" "1%"
-			(at 245.11 47.625 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 245.11 45.72 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price1000" "0.0003"
-			(at 243.84 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2acff44-7e98-4481-9acd-d7e9b1ededf7")
-		)
-		(pin "2"
-			(uuid "8a820f2e-bdf3-4c1f-a94f-d61cfdd1ee51")
-		)
-		(instances
-			(project "ESP32-C3"
-				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 74.93 31.75 0)
 		(unit 1)
@@ -11661,6 +11453,214 @@
 			(project "ESP32-C3"
 				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "resistor_smd_standard:120_0402")
+		(at 243.84 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef817abd-c424-493f-a0c6-8a47ea64c38a")
+		(property "Reference" "R13"
+			(at 243.84 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120_0402"
+			(at 243.84 46.99 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 247.015 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+			(at 247.015 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 120Ω 0402  Chip Resistor - Surface Mount ROHS"
+			(at 247.015 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25079"
+			(at 247.015 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tollerance" "1%"
+			(at 245.11 47.625 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 245.11 45.72 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price1000" "0.0004"
+			(at 243.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d4dc1e7-2afc-44d5-b8cd-ddb3e350fac8")
+		)
+		(pin "1"
+			(uuid "7bc47e16-5249-47b0-8d60-bc3b5651bf43")
+		)
+		(instances
+			(project "ESP32-C3"
+				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "resistor_smd_standard:120_0402")
+		(at 243.84 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdc4e7be-dbc5-4274-ab86-ab9637c0f380")
+		(property "Reference" "R14"
+			(at 243.84 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120_0402"
+			(at 243.84 52.07 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 247.015 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2205311900_UNI-ROYAL-Uniroyal-Elec-0402WGF1200TCE_C25079.pdf"
+			(at 247.015 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/℃ ±1% 120Ω 0402  Chip Resistor - Surface Mount ROHS"
+			(at 247.015 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25079"
+			(at 247.015 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tollerance" "1%"
+			(at 245.11 52.705 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 245.11 50.8 0)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price1000" "0.0004"
+			(at 243.84 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8318730-4b02-48fe-9aeb-69415bf4c2ab")
+		)
+		(pin "1"
+			(uuid "f6066d9a-1f42-461c-9045-94082797a0e7")
+		)
+		(instances
+			(project "ESP32-C3"
+				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
+					(reference "R14")
 					(unit 1)
 				)
 			)

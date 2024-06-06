@@ -692,27 +692,27 @@
 				)
 			)
 		)
-		(symbol "dcdc:DS8242-33SS3(ext)"
+		(symbol "dcdc:WL9003S5-33"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U?"
-				(at 2.54 -10.16 0)
+				(at -10.922 9.779 0)
 				(effects
 					(font
 						(size 2.0066 2.0066)
 					)
 				)
 			)
-			(property "Value" "DS8242-33SS3"
-				(at 0 8.89 0)
+			(property "Value" "WL9003S5-33"
+				(at 12.446 -9.525 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 2.0066 2.0066)
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 				(at -10.541 10.795 0)
 				(effects
 					(font
@@ -721,7 +721,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2306301041_DSTECH-DS8242-33SS3_C5884134.pdf"
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2102221748_WPMtek-Wei-Pan-Microelectronics-WL9003S5-33_C2688245.pdf"
 				(at -10.541 10.795 0)
 				(effects
 					(font
@@ -730,16 +730,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "500mA 70dB@(1kHz) null 3.3V positive 35V SOT-23  Linear Voltage Regulators (LDO) ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C5884134"
+			(property "Description" " 300mA 70dB@(1kHz) 70μA 130mV Fixed 3.3V~3.3V Positive 50uVRMS 1 6.5V Uin SOT-23-5L Linear Voltage Regulators (LDO) ROHS "
 				(at 0.635 0 0)
 				(effects
 					(font
@@ -748,8 +739,8 @@
 					(hide yes)
 				)
 			)
-			(property "QtyReel" "3000"
-				(at 0 0 0)
+			(property "LCSC" "C2688245"
+				(at 0.635 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -757,62 +748,33 @@
 					(hide yes)
 				)
 			)
-			(property "Price1000" "0.0179"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_CORRECTION" "0;0;180"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "18V LDO 3.3V SOT23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DS8242-33SS3(ext)_0_0"
-				(text "3V3"
-					(at 10.16 2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "connect "
-					(at -5.715 3.81 0)
+			(symbol "WL9003S5-33_0_0"
+				(text "1uF bypass cap"
+					(at 0 1.905 0)
 					(effects
 						(font
 							(size 0.7 0.7)
 						)
-						(justify left)
 					)
 				)
-				(text "connect "
-					(at 6.35 3.81 0)
+				(text "connect"
+					(at 0 3.175 0)
 					(effects
 						(font
 							(size 0.7 0.7)
 						)
-						(justify right)
+					)
+				)
+				(text "input and output"
+					(at 0 0.635 0)
+					(effects
+						(font
+							(size 0.7 0.7)
+						)
 					)
 				)
 			)
-			(symbol "DS8242-33SS3(ext)_0_1"
+			(symbol "WL9003S5-33_0_1"
 				(rectangle
 					(start -6.35 7.62)
 					(end 6.35 -7.62)
@@ -825,27 +787,25 @@
 					)
 				)
 			)
-			(symbol "DS8242-33SS3(ext)_1_0"
-				(text "1uF"
-					(at -5.715 2.54 0)
-					(effects
-						(font
-							(size 0.7 0.7)
+			(symbol "WL9003S5-33_1_1"
+				(pin power_in line
+					(at -11.43 5.08 0)
+					(length 5.08)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
 						)
-						(justify left)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
-				(text "1uF-22uF"
-					(at 5.715 2.54 0)
-					(effects
-						(font
-							(size 0.7 0.7)
-						)
-						(justify right)
-					)
-				)
-			)
-			(symbol "DS8242-33SS3(ext)_1_1"
 				(pin power_in line
 					(at 0 -12.7 90)
 					(length 5.08)
@@ -856,7 +816,43 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -3.81 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 11.43 -3.81 180)
+					(length 5.08)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -874,25 +870,7 @@
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -11.43 5.08 0)
-					(length 5.08)
-					(name "Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2528,22 +2506,28 @@
 		(uuid "1340d3dd-bf7c-4da0-93fa-a0d22786653e")
 	)
 	(junction
+		(at 214.63 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bd1f128-3b8e-4c58-978c-5c1e84d56627")
+	)
+	(junction
 		(at 182.88 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4dd4a3be-3dd6-45a8-84e6-8678ee63861a")
 	)
 	(junction
-		(at 214.63 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77f38c81-c259-4a07-ae5d-b50f0a62d953")
-	)
-	(junction
 		(at 135.89 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7927d758-49b3-4f17-861d-2bf67e336891")
+	)
+	(junction
+		(at 203.2 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d66e992-5b66-49dd-91fb-45b277d236fc")
 	)
 	(junction
 		(at 72.39 76.2)
@@ -2766,6 +2750,16 @@
 			(type default)
 		)
 		(uuid "475ba037-1f0d-4ec0-9895-ad44f77f2687")
+	)
+	(wire
+		(pts
+			(xy 203.2 53.34) (xy 203.2 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "475fc098-2e08-400d-ad5f-532381656368")
 	)
 	(wire
 		(pts
@@ -3598,6 +3592,92 @@
 			(project "ESP32-C3"
 				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "dcdc:WL9003S5-33")
+		(at 214.63 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "173c53be-1c00-41af-8a12-65e998d6fdbe")
+		(property "Reference" "U5"
+			(at 214.63 44.45 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" "WL9003S5-33"
+			(at 214.63 48.26 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 204.089 47.625 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2102221748_WPMtek-Wei-Pan-Microelectronics-WL9003S5-33_C2688245.pdf"
+			(at 204.089 47.625 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" " 300mA 70dB@(1kHz) 70μA 130mV Fixed 3.3V~3.3V Positive 50uVRMS 1 6.5V Uin SOT-23-5L Linear Voltage Regulators (LDO) ROHS "
+			(at 215.265 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2688245"
+			(at 215.265 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7368120d-b9d4-498e-abde-95c936bd41d3")
+		)
+		(pin "3"
+			(uuid "962d7cca-4db1-4f20-b946-ea749ab017cd")
+		)
+		(pin "4"
+			(uuid "27c45d0f-a931-47b8-a19d-a3cf01ac9ed8")
+		)
+		(pin "2"
+			(uuid "f9e8a0bc-078b-429f-be82-191cb7ce6d30")
+		)
+		(pin "5"
+			(uuid "d8f7f493-4710-400c-b063-6104029253fa")
+		)
+		(instances
+			(project ""
+				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5421,113 +5501,6 @@
 			(project "ESP32-C3"
 				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dcdc:DS8242-33SS3(ext)")
-		(at 214.63 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e123bf1f-ae1c-4eac-bf51-701742acfb68")
-		(property "Reference" "U4"
-			(at 217.4294 45.72 0)
-			(effects
-				(font
-					(size 2.0066 2.0066)
-				)
-			)
-		)
-		(property "Value" "DS8242-33SS3"
-			(at 217.4294 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 204.089 47.625 0)
-			(effects
-				(font
-					(size 2.0066 2.0066)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2306301041_DSTECH-DS8242-33SS3_C5884134.pdf"
-			(at 204.089 47.625 0)
-			(effects
-				(font
-					(size 2.0066 2.0066)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "500mA 70dB@(1kHz) null 3.3V positive 35V SOT-23  Linear Voltage Regulators (LDO) ROHS"
-			(at 214.63 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5884134"
-			(at 215.265 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "QtyReel" "3000"
-			(at 214.63 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price1000" "0.0179"
-			(at 214.63 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_CORRECTION" "0;0;180"
-			(at 214.63 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "418b8a50-ff35-43f1-87ab-29093c8b5933")
-		)
-		(pin "3"
-			(uuid "9673fe68-c7f7-479a-aada-065595a301a0")
-		)
-		(pin "2"
-			(uuid "e9f738c3-15a2-44c0-9c72-174186d84143")
-		)
-		(instances
-			(project ""
-				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
-					(reference "U4")
 					(unit 1)
 				)
 			)
