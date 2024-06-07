@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Ans1S/lil-ESP32-C3">
-    <img src="Readme/KiCad-Logo.webp" alt="Logo" width="800" height="400">
+    <img src="Readme/KiCad-Logo.webp" alt="Logo" width="500" height="300">
   </a>
 
   <h3 align="center">Little ESP32 C3 Charger with with wireless capabilities</h3>
