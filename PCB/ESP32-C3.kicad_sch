@@ -10803,7 +10803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEDSMD:LED_0606_1432"
+		(property "Footprint" "LEDSMD:LED_0606_1432_correct"
 			(at 255.27 34.29 0)
 			(effects
 				(font
