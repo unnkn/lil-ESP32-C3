@@ -24,7 +24,7 @@
 ## About The Project
 <div align="center">
   <a href="https://github.com/Ans1S/lil-ESP32-C3/tree/main/PCB">
-      <img src="Readme/PCB-schwarz.webp" alt="Logo" width="500" height="500">
+      <img src="Readme/PCB-3D.webp" alt="Logo" width="500" height="500">
   </a>
 </div>
 <br />
