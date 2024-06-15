@@ -159,272 +159,6 @@
 				)
 			)
 		)
-		(symbol "DPS_connectors:DPS_485"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "HCZZ0039-3"
-				(at 10.16 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
-				(at -0.635 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2306261509_Hong-Cheng-HCZZ0032-3_C7433424.pdf"
-				(at 0.635 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" " 1x3P 1 1mm 3 SMD,P=1mm Wire To Board / Wire To Wire Connector ROHS "
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C7433424"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB_CORRECTION" "0;0;180"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Price1000" "0.0208"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "QtyReel" " 2000"
-				(at 0 -5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "DPS_485_0_0"
-				(text "GND"
-					(at 1.905 2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-					)
-				)
-			)
-			(symbol "DPS_485_0_1"
-				(rectangle
-					(start -1.27 -4.699)
-					(end 1.27 -5.461)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DPS_485_1_0"
-				(text "B"
-					(at 1.905 -2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-					)
-				)
-			)
-			(symbol "DPS_485_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "A"
-					(at 1.905 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "DPS_connectors:DPS_PPS_Right_Angle"
 			(pin_names
 				(offset 1.016) hide)
@@ -586,6 +320,308 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DPS_connectors:DPS_UART_DEST_GH_FLAT"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HCZZ0001-4"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
+				(at -1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2306261509_Hong-Cheng-HCZZ0001-4_C7433455.pdf"
+				(at -0.635 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1x4P 1 GH Tinning 1.25mm Female 4 260℃ -25℃~+85℃ 1A Brass Surface Mount SMD,P=1.25mm Wire To Board / Wire To Wire Connector ROHS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C7433455"
+				(at 0 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB_CORRECTION" "0;0;0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Price1000" "0.0140"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "QtyReel" "2000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DPS_UART_DEST_GH_FLAT_0_0"
+				(text "3V3"
+					(at 1.905 2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(text "GND"
+					(at 1.905 -5.08 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(text "MCU_RX"
+					(at 1.905 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+				(text "MCU_TX"
+					(at 1.905 -2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
+					)
+				)
+			)
+			(symbol "DPS_UART_DEST_GH_FLAT_0_1"
+				(rectangle
+					(start -1.27 -7.239)
+					(end 1.27 -8.001)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DPS_UART_DEST_GH_FLAT_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5099,6 +5135,12 @@
 		(uuid "027b6635-51b4-4b0a-bc7b-e38c6c7b5763")
 	)
 	(junction
+		(at 62.23 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "045e6ae0-9124-487d-aaf1-ac07f55c81d5")
+	)
+	(junction
 		(at 118.11 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5856,6 +5898,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 189.23) (xy 64.77 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0de32d-34cc-4168-866a-c27ae05064d2")
+	)
+	(wire
+		(pts
 			(xy 54.61 184.15) (xy 64.77 184.15)
 		)
 		(stroke
@@ -5936,6 +5988,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 191.77) (xy 62.23 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97037d2f-a014-402a-a62f-6e2b9aa19ae2")
+	)
+	(wire
+		(pts
 			(xy 203.2 99.06) (xy 203.2 100.33)
 		)
 		(stroke
@@ -5956,7 +6018,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 189.23) (xy 64.77 189.23)
+			(xy 57.15 189.23) (xy 62.23 189.23)
 		)
 		(stroke
 			(width 0)
@@ -6066,7 +6128,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 189.23) (xy 62.23 190.5)
+			(xy 57.15 189.23) (xy 57.15 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6233,6 +6295,16 @@
 			(type default)
 		)
 		(uuid "dbc2f729-7d13-4a66-8604-52d95b8ab454")
+	)
+	(wire
+		(pts
+			(xy 62.23 191.77) (xy 62.23 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc173ba3-4b02-4245-b797-457a46bd70d7")
 	)
 	(wire
 		(pts
@@ -10225,117 +10297,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DPS_connectors:DPS_485")
-		(at 69.85 186.69 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a38f2bb4-6dc9-47b1-a2c9-f4737d354f79")
-		(property "Reference" "J1"
-			(at 77.47 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HCZZ0039-3"
-			(at 80.01 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
-			(at 69.215 182.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2306261509_Hong-Cheng-HCZZ0032-3_C7433424.pdf"
-			(at 70.485 180.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C7433424"
-			(at 69.85 182.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB_CORRECTION" "0;0;180"
-			(at 69.85 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price1000" "0.0208"
-			(at 69.85 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "QtyReel" " 2000"
-			(at 69.85 180.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f164e40a-ff2e-4d68-ba96-fdb0354f8251")
-		)
-		(pin "2"
-			(uuid "ecbdefa9-1120-4744-add2-ecc8b2fb9e4e")
-		)
-		(pin "MP"
-			(uuid "3cf3d77f-001c-4385-b20b-d7e3d5e354cf")
-		)
-		(pin "3"
-			(uuid "c559fa04-b86a-4246-ad91-4de059cb1b0b")
-		)
-		(instances
-			(project "ESP32-C3"
-				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ESP32-C3_Bib:KH-3216-H0209")
 		(at 82.55 92.71 90)
 		(mirror x)
@@ -10879,6 +10840,121 @@
 		)
 	)
 	(symbol
+		(lib_id "DPS_connectors:DPS_UART_DEST_GH_FLAT")
+		(at 69.85 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfb377b8-306f-40e7-ac37-e7b5518b4398")
+		(property "Reference" "J3"
+			(at 81.28 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "HCZZ0001-4"
+			(at 81.28 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
+			(at 68.58 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2306261509_Hong-Cheng-HCZZ0001-4_C7433455.pdf"
+			(at 69.215 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1x4P 1 GH Tinning 1.25mm Female 4 260℃ -25℃~+85℃ 1A Brass Surface Mount SMD,P=1.25mm Wire To Board / Wire To Wire Connector ROHS"
+			(at 69.85 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7433455"
+			(at 69.85 193.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" "0;0;0"
+			(at 69.85 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price1000" "0.0140"
+			(at 69.85 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QtyReel" "2000"
+			(at 69.85 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "051d21e5-b27f-4f14-975a-059dd7f0585e")
+		)
+		(pin "3"
+			(uuid "976496de-ce65-4160-9ae1-2c36fe6818b9")
+		)
+		(pin "MP"
+			(uuid "7e0cdca9-6871-4c9c-aabd-5ef673d7c75d")
+		)
+		(pin "2"
+			(uuid "0e8249d2-7833-41ad-9560-8d280c7ccec4")
+		)
+		(pin "1"
+			(uuid "7646a6c1-7dca-4425-8463-870625db015a")
+		)
+		(instances
+			(project ""
+				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 74.93 31.75 0)
 		(unit 1)
@@ -11296,7 +11372,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 62.23 190.5 0)
+		(at 57.15 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11305,7 +11381,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6359a5d-03ad-4acc-ab90-dadd236478ca")
 		(property "Reference" "#PWR036"
-			(at 62.23 196.85 0)
+			(at 57.15 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11314,7 +11390,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 62.23 195.58 0)
+			(at 57.15 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11322,7 +11398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 190.5 0)
+			(at 57.15 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11331,7 +11407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 190.5 0)
+			(at 57.15 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11340,7 +11416,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 190.5 0)
+			(at 57.15 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11932,7 +12008,7 @@
 			)
 		)
 		(instances
-			(project "ESP32-C3"
+			(project "ESP32-C3-V2"
 				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
 					(page "2")
 				)
