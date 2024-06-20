@@ -7,7 +7,7 @@
     <img src="Readme/KiCad-Logo.webp" alt="Logo" width="300" height="120">
   </a>
 
-  <h3 align="center">Little ESP32 C3 Charger with with wireless capabilities</h3>
+  <h3 align="center">Little ESP32 C3 Charger with wireless capabilities</h3>
 
   <p align="center">
     Here you can find all my project files.
