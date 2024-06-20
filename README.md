@@ -23,13 +23,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <div align="left">
-  <a href="https://github.com/Ans1S/lil-ESP32-C3/tree/main/PCB">
+  <a href="[https://github.com/Ans1S/lil-ESP32-C3/tree/main/PCB](https://github.com/Ans1S/lil-ESP32-C3/tree/main/PCB/Version%201)">
       <img src="Readme/PCB-3D.webp" alt="Logo" width="500" height="500">
   </a>
 </div>
 
 <div align="right">
-  <a href="https://github.com/Ans1S/lil-ESP32-C3/tree/main/PCB">
+  <a href="[https://github.com/Ans1S/lil-ESP32-C3/tree/main/PCB](https://github.com/Ans1S/lil-ESP32-C3/tree/main/PCB/Version%201)">
       <img src="Readme/Back.webp" alt="Logo" width="500" height="500">
   </a>
 </div>
