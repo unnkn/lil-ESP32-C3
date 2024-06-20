@@ -31,6 +31,11 @@
   </a>
 </div>
 
+<div align="center">
+  <a href="https://github.com/Ans1S/lil-ESP32-C3/tree/main/PCB/Version%201">
+      <img src="Readme/Dimensions.webp" alt="Logo" width="500" height="500">
+  </a>
+</div>
 
 <br />
 <br />
