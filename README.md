@@ -66,6 +66,38 @@ This versatile board is ideal for a variety of applications, including but not l
 
 In summary, this project aims to deliver a powerful, compact, and versatile ESP32-C3 board that excels in wireless communication and advanced power management, making it an excellent choice for modern electronic applications.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### PCB Version 2: Enhancements and New Features
+
+The development of the second version of our PCB introduces several key improvements designed to enhance functionality, reliability, and power management. Below are the major upgrades included in this new iteration:
+
+#### Key Enhancements:
+
+1. **I2C Connector**:
+   - **Improved Communication**: The addition of an I2C connector facilitates easier and more reliable communication between the ESP32-C3 and other peripheral devices. This enables the integration of various sensors and modules without complex wiring.
+
+2. **Battery Protection Circuit**:
+   - **Enhanced Safety**: A new protection circuit for the battery has been implemented to prevent overcharging, over-discharging, and short circuits. This ensures the longevity and safety of the battery, providing more robust power management.
+
+3. **New Charging IC with 5V Output**:
+   - **Efficient Power Conversion**: The upgraded charging IC provides a stable 5V output, which improves the efficiency of power conversion and ensures a consistent power supply to the ESP32-C3 and other connected components.
+
+4. **Low Dropout Regulator (LDO)**:
+   - **Stable Voltage Regulation**: A new LDO has been added to step down the 5V from the charging IC to 3.3V, the operating voltage for the ESP32-C3. This ensures that the microcontroller can operate efficiently even when the battery charge is low.
+
+5. **Battery Level Monitoring**:
+   - **Accurate Power Management**: The updated design includes the capability to read the battery charge level. This feature allows the ESP32-C3 to monitor the battery status accurately, enabling smarter power management and alerting users when the battery is low.
+
+#### Benefits of the Upgrades:
+
+- **Enhanced Connectivity**: The I2C connector simplifies the addition of various peripherals, making the board more versatile and easier to integrate into different projects.
+- **Improved Safety and Reliability**: The battery protection circuit ensures safer operation and prolongs battery life by preventing common battery-related issues.
+- **Better Power Efficiency**: With the new charging IC and LDO, power conversion is more efficient, leading to better performance and longer battery life for the device.
+- **Continuous Operation**: The combination of improved power management features ensures that the ESP32-C3 can continue to operate even under low battery conditions, making it more reliable for critical applications.
+- **Smarter Power Management**: The ability to monitor battery levels allows for better decision-making in power usage, potentially extending the operational time of battery-powered applications.
+
+These enhancements make the second version of our PCB a more robust and versatile solution, capable of supporting a wide range of applications with improved efficiency and reliability.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
