@@ -20,7 +20,7 @@
 </div>
 
 
-### PCB Version 1: Advanced Wireless Communication and Power Management
+## PCB Version 1: Advanced Wireless Communication and Power Management
 <div align="center">
   <a href="https://github.com/Ans1S/lil-ESP32-C3/tree/main/PCB/Version%201">
       <img src="Readme/PCB-3D.webp" alt="Logo" width="500" height="500">
