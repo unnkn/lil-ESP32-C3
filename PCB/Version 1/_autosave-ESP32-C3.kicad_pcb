@@ -3,15 +3,13 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(general
-		(thickness 1.6062)
+		(thickness 1.6)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
 	(layers
-		(0 "F.Cu" signal "Front.Cu")
-		(1 "In1.Cu" power "GND1.Cu")
-		(2 "In2.Cu" power "GND2.Cu")
-		(31 "B.Cu" signal "Back.Cu")
+		(0 "F.Cu" signal)
+		(31 "B.Cu" power)
 		(32 "B.Adhes" user "B.Adhesive")
 		(33 "F.Adhes" user "F.Adhesive")
 		(34 "B.Paste" user)
@@ -57,30 +55,8 @@
 				(thickness 0.035)
 			)
 			(layer "dielectric 1"
-				(type "prepreg")
-				(thickness 0.2104)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In1.Cu"
-				(type "copper")
-				(thickness 0.0152)
-			)
-			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.065)
-				(material "FR4")
-				(epsilon_r 4.5)
-				(loss_tangent 0.02)
-			)
-			(layer "In2.Cu"
-				(type "copper")
-				(thickness 0.0152)
-			)
-			(layer "dielectric 3"
-				(type "prepreg")
-				(thickness 0.2104)
+				(thickness 1.51)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -14357,6 +14333,71 @@
 			)
 			(justify left bottom)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.SilkS")
+		(uuid "1b6383c7-e3cc-4831-87fa-306440a7b9ce")
+		(pts
+			(xy 153.825137 96.3) (xy 153.836327 67.6)
+		)
+		(height 6.05706)
+		(gr_text "28,7 mm"
+			(at 158.737792 81.951914 89.97766064)
+			(layer "F.SilkS")
+			(uuid "1b6383c7-e3cc-4831-87fa-306440a7b9ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 2)
+			(units_format 1)
+			(precision 4) suppress_zeroes)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.SilkS")
+		(uuid "c4a96ae1-3ed7-4f79-8365-8db52f431b11")
+		(pts
+			(xy 128.974874 92.8) (xy 157.317737 92.825171)
+		)
+		(height 6.519419)
+		(gr_text "28,3 mm"
+			(at 143.141537 98.182002 359.9491142)
+			(layer "F.SilkS")
+			(uuid "c4a96ae1-3ed7-4f79-8365-8db52f431b11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 2)
+			(units_format 1)
+			(precision 4)
+			(override_value "28,3") suppress_zeroes)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 150.5 88)
