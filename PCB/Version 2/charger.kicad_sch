@@ -3154,12 +3154,6 @@
 		)
 	)
 	(junction
-		(at 114.3 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04b5bbb8-a745-4fee-bd28-67d448277259")
-	)
-	(junction
 		(at 209.55 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3176,18 +3170,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46ae1e5d-77b4-4ad6-bcd9-6943a78bd2ee")
-	)
-	(junction
-		(at 29.21 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5340464c-18f1-4545-9047-94c08c18307f")
-	)
-	(junction
-		(at 50.8 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "534697b4-405a-4cc7-8084-5399908dada2")
 	)
 	(junction
 		(at 127 58.42)
@@ -3212,12 +3194,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa835be2-72f8-471e-a0c1-f120e4763afe")
-	)
-	(junction
-		(at 72.39 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c037a758-2b9e-4bd1-bcb7-d8d1c3ed41af")
 	)
 	(junction
 		(at 127 39.37)
@@ -3286,16 +3262,6 @@
 			(type default)
 		)
 		(uuid "18e6fd86-f743-491b-8e23-eb48a4b288fd")
-	)
-	(wire
-		(pts
-			(xy 71.12 69.85) (xy 72.39 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20dec94f-204f-4544-974f-9e612b752bcc")
 	)
 	(wire
 		(pts
@@ -3409,7 +3375,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 107.95) (xy 119.38 107.95)
+			(xy 105.41 107.95) (xy 119.38 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3426,16 +3392,6 @@
 			(type default)
 		)
 		(uuid "49cb191a-b009-479b-bdd3-4b231d9c617d")
-	)
-	(wire
-		(pts
-			(xy 72.39 69.85) (xy 80.01 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d9ca01c-c6ec-4c0e-b818-66bd33f0009f")
 	)
 	(wire
 		(pts
@@ -3479,43 +3435,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 69.85) (xy 64.77 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59c101a9-3caa-4183-b44d-714e67177f16")
-	)
-	(wire
-		(pts
-			(xy 49.53 67.31) (xy 50.8 67.31)
+			(xy 54.61 67.31) (xy 80.01 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5bc1b13b-690e-45b3-b4f1-f50b14f88d57")
-	)
-	(wire
-		(pts
-			(xy 25.4 62.23) (xy 29.21 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cb1f3ef-c4cc-4590-a46a-70e74abd585c")
-	)
-	(wire
-		(pts
-			(xy 50.8 57.15) (xy 80.01 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d6daf14-1513-480f-8998-80542fff996d")
 	)
 	(wire
 		(pts
@@ -3556,16 +3482,6 @@
 			(type default)
 		)
 		(uuid "6e02085a-b59e-424a-a52c-0381993ee2f9")
-	)
-	(wire
-		(pts
-			(xy 64.77 73.66) (xy 59.69 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73aef7f4-329b-437e-ac83-596398aa7ea1")
 	)
 	(wire
 		(pts
@@ -3619,16 +3535,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 77.47) (xy 72.39 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98e21783-c96f-4b11-867b-7c66b8115880")
-	)
-	(wire
-		(pts
 			(xy 170.18 39.37) (xy 172.72 39.37)
 		)
 		(stroke
@@ -3636,16 +3542,6 @@
 			(type default)
 		)
 		(uuid "9a590e54-3467-485a-b8c1-167bb63118af")
-	)
-	(wire
-		(pts
-			(xy 50.8 72.39) (xy 50.8 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a047945b-6e2f-47df-a9d1-5cab1c8e2d7e")
 	)
 	(wire
 		(pts
@@ -3659,17 +3555,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 67.31) (xy 80.01 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b48d9e1e-46eb-437e-a7cd-db51d156a99c")
-	)
-	(wire
-		(pts
-			(xy 29.21 62.23) (xy 80.01 62.23)
+			(xy 41.91 62.23) (xy 80.01 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3699,7 +3585,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 77.47) (xy 72.39 77.47)
+			(xy 67.31 69.85) (xy 80.01 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3716,26 +3602,6 @@
 			(type default)
 		)
 		(uuid "be89ed70-ad62-483e-981d-c6d1b2379d6a")
-	)
-	(wire
-		(pts
-			(xy 29.21 55.88) (xy 29.21 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7063308-de4f-4200-8b45-6b5f159c3c50")
-	)
-	(wire
-		(pts
-			(xy 105.41 107.95) (xy 114.3 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c85a3beb-23d1-4de7-82c5-37dedc30c182")
 	)
 	(wire
 		(pts
@@ -3809,6 +3675,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 57.15) (xy 80.01 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c6498f-a9d1-49ca-b7a0-b5a3f494ab7a")
+	)
+	(wire
+		(pts
 			(xy 127 57.15) (xy 127 58.42)
 		)
 		(stroke
@@ -3836,16 +3712,6 @@
 			(type default)
 		)
 		(uuid "f51cb5c1-7e7f-469d-9a7b-92652e0d999b")
-	)
-	(wire
-		(pts
-			(xy 64.77 69.85) (xy 64.77 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6ede2cf-71fc-4dfa-bfe4-3e1f78e9ff08")
 	)
 	(wire
 		(pts
@@ -3879,7 +3745,7 @@
 	)
 	(text "Charging disabled\n"
 		(exclude_from_sim no)
-		(at 48.006 60.706 0)
+		(at 36.576 59.436 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3889,7 +3755,7 @@
 	)
 	(text "disable charger termination."
 		(exclude_from_sim no)
-		(at 65.532 51.308 0)
+		(at 58.928 53.848 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3908,9 +3774,53 @@
 		)
 		(uuid "be903eb2-a1f6-4515-90bb-874a0f1ef823")
 	)
+	(global_label "OUT"
+		(shape input)
+		(at 113.03 107.95 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7115f203-0b23-4abb-8514-b6f5fd99e954")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 114.5638 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OUT"
+		(shape input)
+		(at 119.38 39.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b9f28b4-5e7a-49c9-bcda-589164dfa43e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 32.7562 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EN1"
 		(shape input)
-		(at 49.53 67.31 180)
+		(at 54.61 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3920,7 +3830,29 @@
 		)
 		(uuid "8d428a73-67cd-4ddc-96e9-1bfa86fce453")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.8558 67.31 0)
+			(at 47.9358 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TD"
+		(shape input)
+		(at 59.69 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af87e6e2-55a1-478b-8815-dd2493d67532")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.4672 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,7 +3864,7 @@
 	)
 	(global_label "EN2"
 		(shape input)
-		(at 66.04 77.47 180)
+		(at 67.31 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3942,7 +3874,7 @@
 		)
 		(uuid "b400f664-ae79-491a-a4cf-dd0c183ee8cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.3658 77.47 0)
+			(at 60.6358 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3954,7 +3886,7 @@
 	)
 	(global_label "NCE"
 		(shape input)
-		(at 25.4 62.23 180)
+		(at 41.91 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3964,7 +3896,7 @@
 		)
 		(uuid "e0bcf187-3801-4d25-8ae8-23f86a69bbdc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.6653 62.23 0)
+			(at 35.1753 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4178,72 +4110,6 @@
 			(project "ESP32-C3-V2"
 				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 114.3 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0c64a3b7-91be-44aa-8510-30faf3c90510")
-		(property "Reference" "#PWR030"
-			(at 114.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 114.3 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 114.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4db53e2-6e54-4238-8f0d-d5d9e5711272")
-		)
-		(instances
-			(project "ESP32-C3-V2"
-				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4536,72 +4402,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 59.69 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36faf345-c6b7-4871-934e-f653f93a09f1")
-		(property "Reference" "#PWR018"
-			(at 59.69 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 59.69 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0921e33d-f2f5-40ca-89be-d63380d48a75")
-		)
-		(instances
-			(project "ESP32-C3-V2"
-				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "resistor_smd_standard:8k2_0402")
 		(at 80.01 83.82 0)
 		(unit 1)
@@ -4693,72 +4493,6 @@
 			(project "ESP32-C3-V2"
 				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 29.21 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b055dd0-03f4-4166-9417-acbd1b0b072e")
-		(property "Reference" "#PWR043"
-			(at 29.21 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 29.21 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81a9a097-6e1b-4a01-9f67-fa075a34c69c")
-		)
-		(instances
-			(project "ESP32-C3-V2"
-				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -5131,112 +4865,6 @@
 		)
 	)
 	(symbol
-		(lib_id "resistor_smd_standard:10k_0402")
-		(at 29.21 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62f401bd-d585-4d89-9199-b75522e09a1c")
-		(property "Reference" "R5"
-			(at 31.75 59.0549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k_0402"
-			(at 31.75 60.96 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 29.845 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 29.21 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 29.845 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 29.845 62.865 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tollerance" "1%"
-			(at 31.115 60.96 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 33.02 60.96 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price1000" "0.0005"
-			(at 29.21 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6fc2cf5f-ee04-4e1f-8499-caf188cb9cb9")
-		)
-		(pin "1"
-			(uuid "c9ff0136-ccf7-4f56-a31a-9eda5238fd4e")
-		)
-		(instances
-			(project "ESP32-C3-V2"
-				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 134.62 85.09 0)
 		(unit 1)
@@ -5495,72 +5123,6 @@
 			(project "ESP32-C3-V2"
 				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 50.8 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ce1834f-1050-4bd8-a114-a39294399035")
-		(property "Reference" "#PWR042"
-			(at 50.8 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 50.8 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1dfc965f-840f-4e7d-8688-b8f1128e8113")
-		)
-		(instances
-			(project "ESP32-C3-V2"
-				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -6323,215 +5885,6 @@
 		)
 	)
 	(symbol
-		(lib_id "resistor_smd_standard:10k_0402")
-		(at 50.8 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cae5b61a-74f2-40b3-bd92-f4e6d3c21c1f")
-		(property "Reference" "R9"
-			(at 53.34 69.2149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k_0402"
-			(at 53.34 71.12 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 51.435 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 50.8 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 51.435 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 51.435 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tollerance" "1%"
-			(at 52.705 71.12 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 54.61 71.12 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price1000" "0.0005"
-			(at 50.8 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "95361949-e5f5-44fc-a90f-bacb5627e284")
-		)
-		(pin "1"
-			(uuid "7571fa2c-9928-4ec7-84cf-a852f8f01cd7")
-		)
-		(instances
-			(project "ESP32-C3-V2"
-				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "resistor_smd_standard:10k_0402")
-		(at 68.58 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfa6a6b2-b9e9-4dda-b544-e1bc3b03524d")
-		(property "Reference" "R10"
-			(at 69.088 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k_0402"
-			(at 68.834 73.914 90)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 71.755 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 71.755 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 71.755 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 71.755 69.215 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tollerance" "1%"
-			(at 69.85 67.945 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 69.85 66.04 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price1000" "0.0005"
-			(at 68.58 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "39a6ced1-9c1b-4380-9ba3-a01a53770762")
-		)
-		(pin "1"
-			(uuid "03d3c150-9bab-4770-9a1b-9a07e545126c")
-		)
-		(instances
-			(project "ESP32-C3-V2"
-				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Battery_Management:BQ24072RGT")
 		(at 92.71 67.31 0)
 		(unit 1)
@@ -6744,112 +6097,6 @@
 		)
 	)
 	(symbol
-		(lib_id "resistor_smd_standard:10k_0402")
-		(at 50.8 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d842dac3-dfc3-4414-a5fc-e9e0f090a5c4")
-		(property "Reference" "R22"
-			(at 53.34 53.9749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k_0402"
-			(at 53.34 55.88 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 51.435 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
-			(at 50.8 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 51.435 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 51.435 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tollerance" "1%"
-			(at 52.705 55.88 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 54.61 55.88 0)
-			(effects
-				(font
-					(size 0.7 0.7)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price1000" "0.0005"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2e5c2df2-54ce-449d-8a6c-4eb910a85b79")
-		)
-		(pin "1"
-			(uuid "7d269545-9416-4efd-b495-164b0034e30c")
-		)
-		(instances
-			(project "ESP32-C3-V2"
-				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "capacitor_smd_extended:4u7_0402_X5R _10V")
 		(at 127 60.96 0)
 		(unit 1)
@@ -7027,72 +6274,6 @@
 			(project ""
 				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7f1a3ac-b863-4e2a-a2e1-f68e7f89620a")
-		(property "Reference" "#PWR016"
-			(at 50.8 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "737fc5ca-1ce2-4686-a973-a943b8072abf")
-		)
-		(instances
-			(project "ESP32-C3-V2"
-				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed/fa53471f-70aa-4ce3-99ec-d97d3fb2988c"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
