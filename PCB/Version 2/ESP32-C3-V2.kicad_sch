@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "35961fef-fe97-49ba-90a9-cbb988ec3bed")
 	(paper "A4")
+	(title_block
+		(title "USB-ESP32-C3")
+		(date "2024-06-25")
+		(rev "V2")
+	)
 	(lib_symbols
 		(symbol "1_switch:TS-1187A-B-A-B"
 			(pin_numbers hide)
