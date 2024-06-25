@@ -1209,7 +1209,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4f47571b-33be-4bac-ae3f-0df688a86f4a")
@@ -1221,7 +1221,7 @@
 			)
 		)
 		(property "Value" "100k_0402"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "d4d00433-3040-4e4d-bd88-5f755ac3b6de")
 			(effects
@@ -1428,7 +1428,7 @@
 			(uuid "f1a830c2-11d9-496c-aa5a-db1a0b1c10e4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e9bab65b-d708-4282-9eb3-fe9a0670eb0a")
 			(effects
@@ -1475,7 +1475,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "30558ecb-b911-4236-b273-b4976eb4d7fe")
@@ -1487,7 +1487,7 @@
 			)
 		)
 		(property "Value" "1k_0402"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "809ab748-d261-4a5e-b7ba-30438515bf53")
 			(effects
@@ -1694,7 +1694,7 @@
 			(uuid "4ad47cbf-f902-43ea-a929-30f6a054f924")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "14362762-14ed-4d1d-9715-647f697640d8")
 			(effects
@@ -6435,7 +6435,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 -1.17 360)
+			(at 0 -1.17 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "94f1610c-7093-42c3-9044-7e59ef4120d5")
@@ -6447,7 +6447,7 @@
 			)
 		)
 		(property "Value" "100k_0402"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "038380a2-7a70-4c82-ac74-90ba0406c006")
 			(effects
@@ -6654,7 +6654,7 @@
 			(uuid "09aae864-fd07-40be-9550-a1c79e2c3613")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a663d63f-1d52-4185-af3e-0ddf706a9ce2")
 			(effects
@@ -17969,7 +17969,7 @@
 		(polygon
 			(pts
 				(xy 138.8 79.8) (xy 138.8 80.6) (xy 141.8 80.6) (xy 141.8 79.8) (xy 141.9 79.8) (xy 141.9 78.6)
-				(xy 141.9 78.6) (xy 141.9 74.6) (xy 140.2 74.6) (xy 140.2 77.8) (xy 140.9 77.8) (xy 140.9 79.8)
+				(xy 141.9 74.6) (xy 140.2 74.6) (xy 140.2 77.8) (xy 140.9 77.8) (xy 140.9 79.8)
 			)
 		)
 		(filled_polygon
@@ -18010,7 +18010,7 @@
 		)
 		(polygon
 			(pts
-				(xy 129.2 79) (xy 131.2 79) (xy 131.2 80.3) (xy 131.2 80.3) (xy 131.2 81.3) (xy 129.2 81.3)
+				(xy 129.2 79) (xy 131.2 79) (xy 131.2 80.3) (xy 131.2 81.3) (xy 129.2 81.3)
 			)
 		)
 		(filled_polygon
@@ -18110,7 +18110,7 @@
 			(pts
 				(xy 150.7 90.7) (xy 150.7 90.65) (xy 150.7 90.25) (xy 150.9 90.35) (xy 150.9 78.3) (xy 157.5 78.35)
 				(xy 157.6 94.15) (xy 150.85 94.15) (xy 150.85 93.4) (xy 151.55 93.4) (xy 151.55 92.4) (xy 150.7 92.4)
-				(xy 150.7 91.5) (xy 150.7 91.5)
+				(xy 150.7 91.5)
 			)
 		)
 	)
