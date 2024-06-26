@@ -5632,6 +5632,12 @@
 		(uuid "53a8ede5-b9af-4d0b-8537-681298ea1609")
 	)
 	(junction
+		(at 33.02 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58f9adb1-c3e1-40ae-80c3-c4538528512a")
+	)
+	(junction
 		(at 132.08 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5654,6 +5660,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7537ce93-8be1-47c2-af9a-c9db75250f7b")
+	)
+	(junction
+		(at 26.67 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a175081-ce70-43a8-a3f7-1895cea4936a")
 	)
 	(junction
 		(at 109.22 107.95)
@@ -5708,6 +5720,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2cc9766-ca24-49df-9495-5ccdfdd0af3a")
+	)
+	(junction
+		(at 26.67 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2400149-452c-4cdb-82d5-ab3c63657b8b")
 	)
 	(junction
 		(at 45.72 38.1)
@@ -5847,6 +5865,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 152.4) (xy 46.99 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162da247-a180-4c24-9bc8-b24f9e19057d")
+	)
+	(wire
+		(pts
 			(xy 57.15 29.21) (xy 57.15 31.75)
 		)
 		(stroke
@@ -5864,6 +5892,16 @@
 			(type default)
 		)
 		(uuid "1a3a765c-39b6-4ed7-a7dc-c6105b66a81b")
+	)
+	(wire
+		(pts
+			(xy 17.78 162.56) (xy 26.67 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cf6b7e6-9963-47df-a3c2-b34253700fd4")
 	)
 	(wire
 		(pts
@@ -5937,6 +5975,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 161.29) (xy 17.78 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f91fbae-bd79-4d7d-b4c3-dd21c79f4620")
+	)
+	(wire
+		(pts
 			(xy 116.84 156.21) (xy 116.84 158.75)
 		)
 		(stroke
@@ -5997,6 +6045,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 149.86) (xy 26.67 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4224e32e-4824-411a-9196-e9be098bd354")
+	)
+	(wire
+		(pts
 			(xy 110.49 97.79) (xy 118.11 97.79)
 		)
 		(stroke
@@ -6004,6 +6062,16 @@
 			(type default)
 		)
 		(uuid "44fe785b-5caf-4313-a79f-874698b33197")
+	)
+	(wire
+		(pts
+			(xy 33.02 152.4) (xy 33.02 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "486fe724-972b-4548-8ab8-b797f727fab7")
 	)
 	(wire
 		(pts
@@ -6087,7 +6155,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 152.4) (xy 46.99 152.4)
+			(xy 24.13 152.4) (xy 33.02 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6114,6 +6182,16 @@
 			(type default)
 		)
 		(uuid "58b60cb6-148c-4c0d-a87a-ac849867e1e1")
+	)
+	(wire
+		(pts
+			(xy 26.67 146.05) (xy 26.67 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a195955-789b-4795-8982-f32a926171e3")
 	)
 	(wire
 		(pts
@@ -6517,16 +6595,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 147.32) (xy 46.99 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a62ee1f5-2ac3-469f-90d1-f029dd1c2fba")
-	)
-	(wire
-		(pts
 			(xy 109.22 114.3) (xy 115.57 114.3)
 		)
 		(stroke
@@ -6557,7 +6625,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 149.86) (xy 46.99 149.86)
+			(xy 24.13 149.86) (xy 26.67 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6574,6 +6642,16 @@
 			(type default)
 		)
 		(uuid "adee689e-809c-4f0e-9630-63cbda945c33")
+	)
+	(wire
+		(pts
+			(xy 26.67 147.32) (xy 46.99 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e6d811-562d-4b11-86ef-a002e8606886")
 	)
 	(wire
 		(pts
@@ -6594,6 +6672,16 @@
 			(type default)
 		)
 		(uuid "b7b5c68b-a3be-4f7e-a629-cf525697dc9d")
+	)
+	(wire
+		(pts
+			(xy 26.67 149.86) (xy 46.99 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc08ef77-65fb-40ad-91c0-53edaa4c1e19")
 	)
 	(wire
 		(pts
@@ -6687,6 +6775,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 161.29) (xy 33.02 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1101db5-6c61-4a45-a19a-08f9d274bf11")
+	)
+	(wire
+		(pts
 			(xy 41.91 186.69) (xy 45.72 186.69)
 		)
 		(stroke
@@ -6694,6 +6792,16 @@
 			(type default)
 		)
 		(uuid "d179bac8-8c4d-4b85-920a-16bc1218272f")
+	)
+	(wire
+		(pts
+			(xy 33.02 162.56) (xy 26.67 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d275fc20-cbff-4558-b1ae-f9c0c8c836a9")
 	)
 	(wire
 		(pts
@@ -6897,6 +7005,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 161.29) (xy 26.67 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1759ff9-72be-4640-92f9-70f11e48061f")
+	)
+	(wire
+		(pts
 			(xy 222.25 116.84) (xy 233.68 116.84)
 		)
 		(stroke
@@ -7054,7 +7172,7 @@
 	)
 	(global_label "MCU_SCL"
 		(shape input)
-		(at 45.72 152.4 180)
+		(at 24.13 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7064,7 +7182,7 @@
 		)
 		(uuid "03744c38-2d2f-4e79-8ed9-0ca23b93c087")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.7798 152.3206 0)
+			(at 13.1898 152.3206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +7546,7 @@
 	)
 	(global_label "VCC_Sensor"
 		(shape input)
-		(at 45.72 147.32 180)
+		(at 26.67 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7438,7 +7556,7 @@
 		)
 		(uuid "99a6a50f-de09-45f7-9cb1-847eb8c9a4fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.7282 147.32 0)
+			(at 12.6782 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7560,7 +7678,7 @@
 	)
 	(global_label "MCU_SDA"
 		(shape input)
-		(at 45.72 149.86 180)
+		(at 24.13 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7570,7 +7688,7 @@
 		)
 		(uuid "d50f122b-66a7-4601-9b01-f8d92be49cc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.7193 149.7806 0)
+			(at 13.1293 149.7806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8121,6 +8239,101 @@
 			(project "ESP32-C3-V2"
 				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "resistor_smd_standard:5k1_0402")
+		(at 26.67 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10b4a137-5fb2-481a-8032-2856b1202ef5")
+		(property "Reference" "R9"
+			(at 24.13 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1_0402"
+			(at 28.194 155.956 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 43.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
+			(at 26.67 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 26.035 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 34.29 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tollerance" "1%"
+			(at 34.29 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 34.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cf8779d-3a5b-43a3-9136-074bc35be35e")
+		)
+		(pin "2"
+			(uuid "3510af40-be5b-4305-b9fd-c0989fc37703")
+		)
+		(instances
+			(project "ESP32-C3-V2"
+				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9131,6 +9344,72 @@
 			(project "ESP32-C3-V2"
 				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 17.78 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51da5eb2-a2ab-4396-950c-4256df881c56")
+		(property "Reference" "#PWR018"
+			(at 17.78 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 17.78 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00e554d2-0c7a-4741-b2ad-c5f93656c09c")
+		)
+		(instances
+			(project "ESP32-C3-V2"
+				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10422,6 +10701,101 @@
 			(project ""
 				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "resistor_smd_standard:5k1_0402")
+		(at 33.02 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85200e43-751a-4427-a8f3-6b03b9c17d54")
+		(property "Reference" "R10"
+			(at 30.48 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1_0402"
+			(at 34.544 155.956 90)
+			(effects
+				(font
+					(size 0.7 0.7)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 49.53 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110260030_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
+			(at 33.02 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "±1% 1/16W Thick Film Resistors 50V ±100ppm/℃ -55℃~+155℃ 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 32.385 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 40.64 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tollerance" "1%"
+			(at 40.64 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 40.64 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c59f349-d539-4c0d-8aec-b30377dbd586")
+		)
+		(pin "2"
+			(uuid "1e12c685-1518-4244-acb4-fadbd34b4c7e")
+		)
+		(instances
+			(project "ESP32-C3-V2"
+				(path "/35961fef-fe97-49ba-90a9-cbb988ec3bed"
+					(reference "R10")
 					(unit 1)
 				)
 			)
