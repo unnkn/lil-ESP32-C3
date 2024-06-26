@@ -69,6 +69,12 @@ In summary, this project aims to deliver a powerful, compact, and versatile ESP3
 
 ## New Chapter: Second Version of the Board
 
+<div align="center">
+  <a href="https://github.com/Ans1S/lil-ESP32-C3/tree/main/PCB/Version%201">
+      <img src="Readme/V2.webp" alt="Logo" width="500" height="500">
+  </a>
+</div>
+
 ### Introduction
 The second version of our ESP32-C3 board is currently under development and introduces several significant enhancements to improve functionality, power management, and overall performance. This chapter outlines the key improvements and new features of the updated board.
 
