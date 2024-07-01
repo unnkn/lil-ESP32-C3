@@ -74,7 +74,7 @@ In summary, this project aims to deliver a powerful, compact, and versatile ESP3
       <img src="Readme/V2.webp" alt="Logo" width="500" height="500">
   </a>
    <a href="https://github.com/Ans1S/lil-ESP32-C3/tree/main/PCB/Version%201">
-      <img src="Readme/Dimensions-V2.webp" alt="Logo" width="500" height="500">
+      <img src="Readme/Dimensions-V2.webp" alt="Logo" width="400" height="400">
   </a>
 </div>
 
