@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "USB-ESP32-C3")
-		(date "2024-06-25")
+		(date "2024-07-04")
 		(rev "V2")
 	)
 	(lib_symbols
